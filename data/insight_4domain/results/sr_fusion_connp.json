@@ -1,0 +1,66 @@
+{
+  "n": 566,
+  "base": 0.598939929328622,
+  "n_boot": 2000,
+  "seed": 42,
+  "point": {
+    "classifier_no_sr (text-only)": {
+      "AP": 0.877898667173449,
+      "AUC": 0.8636700323574129,
+      "R90": 0.5634218289085545
+    },
+    "SR alone": {
+      "AP": 0.8448195226580472,
+      "AUC": 0.8009499304770444,
+      "R90": 0.6106194690265486
+    },
+    "Fusion (clf_no_sr \u00d7 SR)": {
+      "AP": 0.9182794669844982,
+      "AUC": 0.8983925253076552,
+      "R90": 0.6784660766961652
+    },
+    "classifier_with_sr (gold)": {
+      "AP": 0.9262058500988725,
+      "AUC": 0.9103998544566163,
+      "R90": 0.7876106194690266
+    }
+  },
+  "paired_deltas": {
+    "fuse_minus_clf_no_sr_AP": {
+      "median": 0.038450717724420935,
+      "ci_low": 0.018530642354189858,
+      "ci_high": 0.0623764815239065,
+      "significant": true
+    },
+    "fuse_minus_clf_no_sr_AUC": {
+      "median": 0.03442874365248022,
+      "ci_low": 0.021264058455946738,
+      "ci_high": 0.04901892276996896,
+      "significant": true
+    },
+    "fuse_minus_clf_no_sr_R90": {
+      "median": 0.16299641490153968,
+      "ci_low": 0.00853931667331615,
+      "ci_high": 0.34679609168631215,
+      "significant": true
+    },
+    "fuse_minus_clf_with_sr_AP": {
+      "median": -0.008232285309104526,
+      "ci_low": -0.023307032998824452,
+      "ci_high": 0.007011592622925854,
+      "significant": false
+    },
+    "fuse_minus_clf_with_sr_AUC": {
+      "median": -0.012021104884025413,
+      "ci_low": -0.024365940990987107,
+      "ci_high": -3.9331432874439805e-05,
+      "significant": true
+    },
+    "fuse_minus_clf_with_sr_R90": {
+      "median": -0.05832118561710398,
+      "ci_low": -0.2422473756855908,
+      "ci_high": 0.14245939454018575,
+      "significant": false
+    }
+  }
+}

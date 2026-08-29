@@ -1,0 +1,2907 @@
+{
+  "Rebus|Gemini 3 Flash|11_6|un_augmented": {
+    "chosen_conf": 40.0,
+    "candidates": {
+      "backhand": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"simply \\\"Backhand\\\"\", \"it's \\\"Backhand\\\"\", \"classic rebus\", \"it has to be\", \"I've found it\"]",
+        "is_chosen": 0
+      },
+      "backseat": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"No\", \"Backseat? No\"]",
+        "is_chosen": 0
+      },
+      "handicap": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"No\", \"Handicap? No\"]",
+        "is_chosen": 0
+      },
+      "behind your back": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"not right\", \"the hand is coming out\", \"No\"]",
+        "is_chosen": 0
+      },
+      "backhanded": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"doesn't feel quite right\", \"No\", \"more common phrase\", \"I am focusing on\"]",
+        "is_chosen": 1
+      },
+      "offhand": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"No\", \"or \\\"Offhand\\\"?\"]",
+        "is_chosen": 0
+      },
+      "backhanded compliment": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"not right\", \"could be a\"]",
+        "is_chosen": 0
+      },
+      "hindsight": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"Not quite\", \"No, it's a hand\", \"if \\\"Hindsight\\\" is a possibility\"]",
+        "is_chosen": 0
+      },
+      "underhanded": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"I'm dismissing \\\"Underhanded\\\"\"]",
+        "is_chosen": 0
+      },
+      "behind one's back": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"dismissing\", \"Behind one's back\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_064|un_augmented": {
+    "chosen_conf": 55.0,
+    "candidates": {
+      "slowdown": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"SLOWDOWN also fits\", \"captures the idea of sluggishness\"]",
+        "is_chosen": 1
+      },
+      "laziness as the answer": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"leaning toward LAZINESS\", \"LAZINESS feels like the better fit\", \"lock in LAZINESS as my answer\"]",
+        "is_chosen": 0
+      },
+      "sluggishness at work": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be a double definition\", \"could be a definition or a cryptic clue\"]",
+        "is_chosen": 0
+      },
+      "at work": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"indicate an anagram\", \"connection isn't clicking yet\", \"could be the wordplay clue\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Opus 4.6|89|un_augmented": {
+    "chosen_conf": 55.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"B remains a strong possibility\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"the answer would be D with the horses\", \"horse options seem most likely\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|GPT-5|5_3|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "touch down": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"implies \\\"touch down\\\"\", \"suggest something like \\\"touch down\\\"\"]",
+        "is_chosen": 0
+      },
+      "staying in touch": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"considering different phrases\", \"like \\\"staying in touch\\\"\"]",
+        "is_chosen": 0
+      },
+      "in touch": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"unrealistic in this context\", \"places it inside a box\", \"usually suggests \\\"in touch\\\"\"]",
+        "is_chosen": 0
+      },
+      "out of touch": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"challenges that interpretation\", \"look like \\\"out of touch\\\"\", \"usually features the word \\\"TOUCH\\\" outside\"]",
+        "is_chosen": 0
+      },
+      "t o u c h": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"letters \\\"T O U C H\\\" are arranged vertically\"]",
+        "is_chosen": 0
+      },
+      "touchdown": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"likely suggests \\\"touchdown\\\"\", \"is simple and plausible\", \"confidently go with \\\"TOUCHDOWN\\\"\", \"feels right!\"]",
+        "is_chosen": 1
+      },
+      "down": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"indicating a downward movement\", \"arranged downward\"]",
+        "is_chosen": 0
+      },
+      "touch": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"vertical arrangement of \\\"TOUCH\\\"\", \"word \\\"TOUCH\\\" stacked vertically\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_070|un_augmented": {
+    "chosen_conf": 75.0,
+    "candidates": {
+      "for execution": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"synonyms for \\\"to be carried out\\\"\", \"is \\\"for execution\\\"\", \"doubly clued as EXECUTION\"]",
+        "is_chosen": 0
+      },
+      "execution": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"doubly clued as EXECUTION\", \"take the first letter off EXECUTION\", \"X-E-C-U-T-I-O-N\"]",
+        "is_chosen": 0
+      },
+      "toxicant": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"eight letters - STRYCHNINE\", \"What about TOXICANT?\", \"means poison\", \"try to create TOXICANT\"]",
+        "is_chosen": 1
+      },
+      "for poison": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"\\\"for poison\\\" doesn't fit\", \"the clue\", \"for poison (8)\", \"for poison -> ARSENIC\"]",
+        "is_chosen": 0
+      },
+      "not the first to be carried out": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"this phrase \\\"to be carried out for poison\\\" doesn't seem to lead anywhere directly\", \"not the first to be carried out for poison\", \"wordplay is \\\"operation, not the first to be carried out\\\"\"]",
+        "is_chosen": 0
+      },
+      "poison": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"assume that \\\"poison\\\" will be the definition\", \"Definition: poison (8)\", \"poison is the definition\"]",
+        "is_chosen": 0
+      },
+      "operation": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"operation is the definition\", \"Definition: operation (8 letters)\", \"operation, not the first\", \"synonym for \\\"operation?\\\"\"]",
+        "is_chosen": 0
+      },
+      "to be carried out": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"lateral definition\", \"means \\\"for execution\\\"\", \"instruction is to \\\"build the word\\\"\"]",
+        "is_chosen": 0
+      },
+      "carried out": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"\\\"carried out\\\" for \\\"poison\\\"\", \"can be literal, \\\"ex-port\\\"\", \"word for carried out would be EXECUTED\"]",
+        "is_chosen": 0
+      },
+      "not the first": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"screams standard cryptic device\", \"remove the initial letter\", \"means we take the first letter off\", \"remove the first letter\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 2.5 Pro|238|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"A is out\", \"still a sailboat\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"strengthens the case for B\", \"fits the \\\"motorboat\\\" requirement\", \"visually the most compelling\", \"B is therefore the answer\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"C is out\", \"still a sailboat\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"D has several motorboats\", \"Inverted State Logic\", \"D shows boats underway\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|11_1|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "teacher with no class": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"could this be\", \"feels like it might\", \"fits the wordplay\"]",
+        "is_chosen": 0
+      },
+      "teacher": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"suggests\", \"teac (teacher)\"]",
+        "is_chosen": 0
+      },
+      "top of the class": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"seems cleaner\", \"best answer\", \"feels right\", \"none of them fit as cleanly\"]",
+        "is_chosen": 1
+      },
+      "teach": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"Wait - could this be\", \"missing from\", \"minus the h\"]",
+        "is_chosen": 0
+      },
+      "her": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"with \\\"her\\\" removed\", \"leaving just\", \"suggest \\\"missing her\\\"\"]",
+        "is_chosen": 0
+      },
+      "teac": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"is positioned\", \"at the top of the box\", \"word could be\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_085|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "every second of the day": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"part might be indicating\", \"might be indicating\", \"might mean we are\", \"doesn't seem right\"]",
+        "is_chosen": 0
+      },
+      "oaf": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"common 3-letter word\", \"likely answer is OAF\", \"answer is OAF\", \"we choose OAF\"]",
+        "is_chosen": 1
+      },
+      "of the day": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"three words?\", \"hidden word?\", \"is seven letters\"]",
+        "is_chosen": 0
+      },
+      "clumsy": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"is the definition\", \"is a synonym\", \"anagram indicator and definition\"]",
+        "is_chosen": 0
+      },
+      "every second": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"common cryptic device\", \"often means taking\", \"might be an instruction\", \"instruction to take\"]",
+        "is_chosen": 0
+      },
+      "am": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"often represented by\", \"verb that can be\", \"represented by 'be'\", \"as the verb\"]",
+        "is_chosen": 0
+      },
+      "i'm": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"extra?\", \"part of the wordplay\", \"surface reading to mislead\", \"homophone indicator\"]",
+        "is_chosen": 0
+      },
+      "day": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"has 3 letters\", \"about the word\", \"is 'd'\", \"anagram of\"]",
+        "is_chosen": 0
+      },
+      "second": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"abbreviated as 'sec'\", \"means 'to put in second place'\"]",
+        "is_chosen": 0
+      },
+      "of": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"first letter O\", \"second letter F\", \"two letters\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 2.5 Pro|800|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"might represent something along the lines of \\\"disorder\\\"\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"feels like a lack of a clear \\\"arranging\\\"\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"The action of climbing is a progression\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"This, at last, seems like an example of \\\"arranging\\\"\", \"this image is the most logical answer\", \"all the constraints fit\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Gemini 3 Flash|20_8|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "der": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"word \\\"DER\\\" repeated\", \"count is accurate\", \"ten \\\"DER\\\"s\"]",
+        "is_chosen": 0
+      },
+      "thunder": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"more clever\", \"common response\", \"100% certain\", \"it is THUNDER\"]",
+        "is_chosen": 1
+      },
+      "under": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"doesn't quite fit\", \"obvious false lead\"]",
+        "is_chosen": 0
+      },
+      "ten": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"count them\", \"ten \\\"DER\\\"s\", \"ten occurrences\"]",
+        "is_chosen": 0
+      },
+      "ten-der": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"initial thought\", \"usual suspects\", \"sounds right\"]",
+        "is_chosen": 0
+      },
+      "rebus": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"classic rebus puzzle\", \"rebus convention\", \"world of rebus puzzles\"]",
+        "is_chosen": 0
+      },
+      "10 der": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"search this image\", \"\\\"10 DER\\\"\", \"find the same: \\\"THUNDER\\\"\"]",
+        "is_chosen": 0
+      },
+      "tender": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"too literal\", \"bit *too* literal\", \"not the best for a rebus\"]",
+        "is_chosen": 0
+      },
+      "rebus der ten times": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"yields both\", \"\\\"Tender\\\" and \\\"Thunder\\\"\", \"Searching \\\"rebus DER ten times\\\"\"]",
+        "is_chosen": 0
+      },
+      "ten der": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"Ten DER\\\" = \\\"Tender\\\"\", \"Ten DER\\\" = \\\"Thunder\\\"\", \"Ten der\\\" to \\\"Thunder\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_076|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "egomania": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"EGOMANIA fits perfectly\", \"as an 8-letter word\", \"complete the word\"]",
+        "is_chosen": 1
+      },
+      "rising reputation": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"reputation rising\", \"reverse of a word\", \"EMAN, EMAF, PER\"]",
+        "is_chosen": 0
+      },
+      "shows self-centredness": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"shows self-centredness = definition\", \"meaning self-centredness\"]",
+        "is_chosen": 0
+      },
+      "admit": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"first letter of\", \"start to admit\", \"complete the word\"]",
+        "is_chosen": 0
+      },
+      "start to admit": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"A (first letter of \\\"admit\\\")\", \"complete the word\"]",
+        "is_chosen": 0
+      },
+      "reputation": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"reputation = NAME, FAME, REP, REPUTE\", \"reputation rising\"]",
+        "is_chosen": 0
+      },
+      "to spike": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"could mean to\", \"add to, or to nail\"]",
+        "is_chosen": 0
+      },
+      "attempt": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"attempt = TRY, GO, STAB, BID, ESSAY\", \"GO (attempt) inserted into\"]",
+        "is_chosen": 0
+      },
+      "8 letters and means": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"The answer is 8 letters and means\", \"fits perfectly as an 8-letter word\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|438|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"not in a specific pose\", \"just resting\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"not a prayer pose\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"Candidate C fits perfectly\", \"directly mirrors the pose\", \"C seems to match\", \"C is explicitly praying\", \"animal version of that\", \"C is the only one\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"not animal\", \"doesn't relate to prayer\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|2_4|un_augmented": {
+    "chosen_conf": 35.0,
+    "candidates": {
+      "vice": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"screams \\\"VICE + VICE.\\\"\", \"tool is \\\"vice\\\"\", \"could totally sound like\"]",
+        "is_chosen": 0
+      },
+      "advice": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"initial thought was \\\"ADVICE,\\\"\", \"couldn't make the logic *clean* enough\"]",
+        "is_chosen": 1
+      },
+      "vis-a-vis": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"Then it hit me\", \"It all clicked\", \"sounds like \\\"vis-a-vis\\\"\", \"I'm going with that\"]",
+        "is_chosen": 0
+      },
+      "vice-president": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"tried to make \\\"VICE\\\"\", \"like \\\"vice-president\\\"\", \"couldn't get it to work\"]",
+        "is_chosen": 0
+      },
+      "ad": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"played with \\\"AD\\\"\", \"from \\\"addition,\\\"\", \"felt clunky\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|GPT-5|cc_084|un_augmented": {
+    "chosen_conf": 41.0,
+    "candidates": {
+      "delhi": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"possible cities like\", \"DELHI\"]",
+        "is_chosen": 1
+      },
+      "food bar's hot inside": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"phrase\", \"hints at\", \"placing the letter H\", \"inside something\"]",
+        "is_chosen": 0
+      },
+      "pub": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"Words like\", \"coming to mind\", \"unsure about the connections\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 2.5 Pro|817|un_augmented": {
+    "chosen_conf": 40.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"best of the options\", \"seeming like A\", \"only option that shows a group of humans\", \"it's a weak fit\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"one human diving\", \"single dive of the animal\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"herd of animals\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"one human wading\", \"wading (group humans)\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Claude Sonnet 4.6|12_4|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "tour": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"could be \\\"tour\\\"\", \"That clicks\"]",
+        "is_chosen": 0
+      },
+      "two r": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"R + R equals \\\"2R\\\"\", \"phonetically \\\"two R\\\" doesn't quite land\"]",
+        "is_chosen": 0
+      },
+      "rare": {
+        "judge_confidence": 61.0,
+        "judge_ngrams": "[\"gives me \\\"RARE\\\"\", \"the first R as the letter itself and the second R as the word \\\"are\\\" combined\"]",
+        "is_chosen": 0
+      },
+      "arrest": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"could spell out \\\"arrest\\\"\", \"settle on ARREST\", \"I've been going in circles\"]",
+        "is_chosen": 0
+      },
+      "r&r": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"settling on R&R\", \"common interpretations of that abbreviation\"]",
+        "is_chosen": 1
+      },
+      "rest and relaxation": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"settling on R&R as the answer\", \"Rest and Relaxation\"]",
+        "is_chosen": 0
+      },
+      "rest": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"rest is sometimes denoted by R\", \"if R = \\\"rest\\\"\"]",
+        "is_chosen": 0
+      },
+      "rr": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"literally \\\"RR\\\"\", \"R + R = \\\"RR\\\"\"]",
+        "is_chosen": 0
+      },
+      "are": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"R = \\\"are\\\"\", \"R sounds like \\\"are\\\"\"]",
+        "is_chosen": 0
+      },
+      "ar": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"pronounced as the letter name \\\"ar\\\"\", \"R sounds like \\\"ar\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_049|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "kings coming from the east": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"what\", \"might mean\", \"Magi were\", \"only 4 letters\"]",
+        "is_chosen": 0
+      },
+      "rexes": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"consider if the answer\", \"could be REXES\", \"would be five letters\"]",
+        "is_chosen": 0
+      },
+      "shahs": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"SHAHS jumps out\", \"as a possibility\", \"five-letter palindrome\", \"fits the pattern\"]",
+        "is_chosen": 1
+      },
+      "kings": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be\", \"R (Rex), K, or ER\", \"definition is\", \"five-letter word actually means\"]",
+        "is_chosen": 0
+      },
+      "coming from the west or from the east": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"suggests reversal\", \"could be a palindrome\", \"reads the same\", \"forwards and backwards\"]",
+        "is_chosen": 0
+      },
+      "the west or from the east": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"finding a hidden word\", \"reading\", \"backwards\"]",
+        "is_chosen": 0
+      },
+      "from the east": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"typically means reversing\", \"looking for something\", \"fits the pattern\"]",
+        "is_chosen": 0
+      },
+      "coming from the west": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"reversal indicator\", \"for 'or'\", \"but that's only two letters\"]",
+        "is_chosen": 0
+      },
+      "or": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"reversed\", \"becomes \\\"ro\\\"\", \"stays as \\\"or\\\"\"]",
+        "is_chosen": 0
+      },
+      "ro": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"gives RO\", \"only two letters\", \"OR reversed to RO\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|GPT-5|1171|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Candidate A depicts people gathered around a grave\", \"so that doesn't work\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"Candidate B, showing a white dog sniffing grass, seems plausible\", \"B is the best choice\", \"ultimately, B is the best choice\", \"confirms this as \\\"ANSWER: B.\\\"\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Candidate C shows a wolf or dog on snow, which doesn\\u2019t fit the required environmental change\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|15_8|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "abo blood type": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"So \\\"ABO blood type\\\"?\", \"Wait, no\"]",
+        "is_chosen": 0
+      },
+      "writing blood types": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"maybe \\\"writing blood types\\\"?\", \"No, the key is\"]",
+        "is_chosen": 0
+      },
+      "abo": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"maybe \\\"ABO\\\" is part of it\", \"no, the standard phrase\"]",
+        "is_chosen": 0
+      },
+      "blood type": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"the phrase is \\\"blood type\\\"\", \"yes, that's the common rebus\", \"so the answer is \\\"blood type\\\"\", \"confirm\", \"this fits\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_044|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "unusual": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"indicator like unusual\", \"unusual arrangement\", \"mean unusual\"]",
+        "is_chosen": 0
+      },
+      "characters in rare use": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"wordplay is characters in rare use\", \"parse that\", \"entire anagram fodder\"]",
+        "is_chosen": 0
+      },
+      "obliteration": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"definition is obliteration\", \"answer should mean obliteration\", \"obliteration of characters\", \"obliteration (definition) = ERASURE\"]",
+        "is_chosen": 0
+      },
+      "erasure": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"ERASURE is 7 letters\", \"ERASURE!\", \"answer is ERASURE\", \"ERASURE = obliteration\"]",
+        "is_chosen": 1
+      },
+      "characters in": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"might mean that the letters are taken\", \"might indicate taking letters\"]",
+        "is_chosen": 0
+      },
+      "in rare use": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"indicate that the letters are an anagram\", \"might mean that rare is the container\", \"letters in rare use\"]",
+        "is_chosen": 0
+      },
+      "rare use": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"anagram of rare use\", \"fodder\", \"entire anagram fodder\", \"rare use as the fodder\"]",
+        "is_chosen": 0
+      },
+      "characters": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"characters refers to letters\", \"characters might be rare\", \"characters (letters)\"]",
+        "is_chosen": 0
+      },
+      "use": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"use as part of the fodder\", \"use is part of it\", \"use is U-S-E\"]",
+        "is_chosen": 0
+      },
+      "rare": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"rare is the anagram indicator\", \"anagram indicator\", \"rare is part of it\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Flash|377|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Doesn't quite fit\", \"direct mouth/nose interaction\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"seems promising\", \"Option B is the answer\", \"coherent pattern\", \"clear visual representation\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"breaks the pattern\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"breaks the pattern\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 3 Pro|11_1|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "teac": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"contains a rectangle with the word \\\"teac\\\" inside\", \"word is \\\"teac\\\" up in a box\"]",
+        "is_chosen": 0
+      },
+      "up": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"word is \\\"teac\\\" and \\\"up\\\"\", \"is it \\\"teac up\\\"?\"]",
+        "is_chosen": 0
+      },
+      "teacup": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"teacup. This is a very standard rebus format\", \"This is perfect\", \"It's clear and unambiguous\", \"teacup is better\"]",
+        "is_chosen": 1
+      },
+      "high teac": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"high teac sounds less exact\"]",
+        "is_chosen": 0
+      },
+      "teac up": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"Yes, \\\"teac\\\" is literally up\", \"teac up, teacup\", \"feels right\"]",
+        "is_chosen": 0
+      },
+      "high tech": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"distinct possibility\", \"Possible, given the visual pun concept\"]",
+        "is_chosen": 0
+      },
+      "teach": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"missing an \\\"h\\\" from \\\"teach\\\"\", \"missing the 'h' from \\\"teach\\\"\"]",
+        "is_chosen": 0
+      },
+      "tech": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"usually, \\\"tech\\\" is spelled \\\"tech\\\"\"]",
+        "is_chosen": 0
+      },
+      "teac top": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"\\\"Teac top\\\"? No\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_020|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "arden": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"That's the wordplay!\", \"ARDEN is a scene/setting\", \"The clue is working!\", \"It has to be that way!\", \"It is clear!\"]",
+        "is_chosen": 1
+      },
+      "rdent": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"combinations like \\\"A\\\" + \\\"RDENT\\\"\", \"doesn't work out\"]",
+        "is_chosen": 0
+      },
+      "ardent": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"ARDENT is enthusiastic\", \"ARDENT almost is ARDEN\", \"Enthusiastic = ARDENT\", \"shortening that to ARDEN\"]",
+        "is_chosen": 0
+      },
+      "almost": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"incorporating some kind of wordplay\", \"drop a letter\", \"shortened\", \"shortening that to ARDEN\"]",
+        "is_chosen": 0
+      },
+      "shakespearean scene": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"as a definition\", \"ARDEN is a scene/setting\", \"definition is \\\"shakespearean scene\\\"\"]",
+        "is_chosen": 0
+      },
+      "one shakespearean scene": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"one shakespearean scene is ARDEN\", \"The structure makes sense\"]",
+        "is_chosen": 0
+      },
+      "one": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"where does \\\"one\\\" come in?\", \"part of the definition?\", \"part of the wordplay?\"]",
+        "is_chosen": 0
+      },
+      "one enthusiastic": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"one enthusiastic is ARDENT\", \"It clicks!\"]",
+        "is_chosen": 0
+      },
+      "enthusiastic": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"suggests \\\"EAGER\\\"\", \"synonyms for \\\"enthusiastic\\\"\", \"Enthusiastic = ARDENT\"]",
+        "is_chosen": 0
+      },
+      "asset": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"doesn't quite fit\", \"consider using the term \\\"ASSET\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|972|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"A is the best fit\", \"A is exactly that\", \"A is it\", \"Yes, I think A is it\", \"I think A is correct\", \"A fits\"]",
+        "is_chosen": 1
+      },
+      "B": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"no relation to wrapping\", \"probably not\", \"not wrapped, and it's a person\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"not wrapped\", \"no wrapping\", \"not related\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"no sheet or wrapping\", \"not wrapped\", \"no wrapping\", \"no sheet\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|19_10|un_augmented": {
+    "chosen_conf": 55.0,
+    "candidates": {
+      "w in seaweed": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"try different prepositional combinations\", \"W in seaweed\"]",
+        "is_chosen": 1
+      },
+      "lost in the weeds": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"most likely answer\", \"Lost in the weeds\"]",
+        "is_chosen": 0
+      },
+      "eed": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"combine it with the \\\"EED\\\"\", \"from seaWEED\"]",
+        "is_chosen": 0
+      },
+      "w with seaweed": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"try different prepositional combinations\", \"W with seaweed\"]",
+        "is_chosen": 0
+      },
+      "seaweed": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"most likely to be\", \"seaweed\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_049|un_augmented": {
+    "chosen_conf": 25.0,
+    "candidates": {
+      "west or east": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"reads the same forwards and backwards\", \"reinforces the palindrome idea\", \"core of the wordplay\", \"suggests something that reads the same\"]",
+        "is_chosen": 0
+      },
+      "rajas": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"not a palindrome\", \"nagging at me\", \"doesn't fit the letter count\"]",
+        "is_chosen": 1
+      },
+      "raja": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"that's four letters\", \"nagging at me\", \"all the options don't seem right\"]",
+        "is_chosen": 0
+      },
+      "kings": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be part of the definition\", \"trying to connect them\", \"searching for a 5-letter palindrome\", \"connected to the idea of\"]",
+        "is_chosen": 0
+      },
+      "or": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"implies something the same\", \"really throw me off\", \"reinforces the palindrome idea\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|1116|un_augmented": {
+    "chosen_conf": 50.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"the other choices either show ground-dwelling animals or birds\"]",
+        "is_chosen": 1
+      },
+      "B": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"the other choices either show ground-dwelling animals or birds\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"the other choices either show ground-dwelling animals or birds\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"the other choices either show ground-dwelling animals or birds\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|23_7|un_augmented": {
+    "chosen_conf": 75.0,
+    "candidates": {
+      "hard core": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"Hard core - no\"]",
+        "is_chosen": 0
+      },
+      "fruit": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"try other combinations\", \"like \\\"fruit\\\"\"]",
+        "is_chosen": 0
+      },
+      "corridor": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"feels like the strongest\", \"phonetic blend\", \"corridor still feels\"]",
+        "is_chosen": 1
+      },
+      "core road": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Core road - no\"]",
+        "is_chosen": 0
+      },
+      "apple road": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Apple road - no\"]",
+        "is_chosen": 0
+      },
+      "the road to the core": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"Wait - could this\", \"the road to the core\"]",
+        "is_chosen": 0
+      },
+      "hardcore": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"Maybe it's \\\"hardcore\\\"\", \"if the road's pavement\"]",
+        "is_chosen": 0
+      },
+      "core": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"represents \\\"core\\\"\", \"exact phonetic match isn't perfect\"]",
+        "is_chosen": 0
+      },
+      "road": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"road could be\", \"way, path, or drive\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_063|un_augmented": {
+    "chosen_conf": 75.0,
+    "candidates": {
+      "alert broadcast about mp": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"suggests an anagram\", \"is the wordplay\", \"leads to it\"]",
+        "is_chosen": 0
+      },
+      "templar": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"TEMPLAR comes to mind\", \"TEMPLAR uses all seven letters\", \"making the connection work\"]",
+        "is_chosen": 1
+      },
+      "alert broadcast": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"suggests an anagram\", \"options like ALTER, LATER, RATEL\"]",
+        "is_chosen": 0
+      },
+      "about": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"could mean\", \"re\", \"ca\", \"container indicator\"]",
+        "is_chosen": 0
+      },
+      "broadcast": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"broadcast is an anagram indicator\"]",
+        "is_chosen": 0
+      },
+      "re": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"could mean \\\"re\\\"\"]",
+        "is_chosen": 0
+      },
+      "alert": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"could be a definition\", \"part of the wordplay\"]",
+        "is_chosen": 0
+      },
+      "barrister": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"could be the definition\", \"a 7-letter word for\", \"actual definition I'm looking for\"]",
+        "is_chosen": 0
+      },
+      "ca": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"could mean\", \"ca\"]",
+        "is_chosen": 0
+      },
+      "mp": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"MP = Member of Parliament\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|701|un_augmented": {
+    "chosen_conf": 75.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"would make A the answer\", \"shows multiple people on a tricycle, maintaining the same vehicle type but changing the context\"]",
+        "is_chosen": 1
+      },
+      "B": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"Multiple people cycling on bicycles in a city\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"A young child on a small tricycle/balance bike\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"A person on a stationary exercise bike\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 3 Flash|puzzle128.gif|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "close": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"CLOSE is screaming at me\", \"deliberate visual trick\", \"CLOSE is embedded\", \"it's inside counters\"]",
+        "is_chosen": 0
+      },
+      "close encounters": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"mind automatically completes\", \"Close encounters\", \"this fits\", \"likely to indicate\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_034|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "met": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"converge = meet\", \"met is 4 letters\", \"word meet\"]",
+        "is_chosen": 0
+      },
+      "from east and west": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"from east and west could mean\", \"maybe east and west meet\"]",
+        "is_chosen": 0
+      },
+      "main roads": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"main roads as part of the wordplay\", \"main roads is M and R\", \"main roads as definition\"]",
+        "is_chosen": 0
+      },
+      "converge": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"converge could mean\", \"converge might indicate\", \"converge synonym\"]",
+        "is_chosen": 0
+      },
+      "roads": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"roads abbreviated is R\", \"roads anagrammed\", \"from roads\"]",
+        "is_chosen": 0
+      },
+      "main": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"main could be M\", \"main as definition\", \"main ends with N\"]",
+        "is_chosen": 0
+      },
+      "east": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"east is E\", \"east ends with T\", \"from east = E\"]",
+        "is_chosen": 0
+      },
+      "end": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"answer is END\", \"likely the definition\", \"answer is likely END\", \"END itself\", \"definition is end\"]",
+        "is_chosen": 1
+      },
+      "west": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"west is W\", \"west end\", \"west ends with T\"]",
+        "is_chosen": 0
+      },
+      "and": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"middle letter\", \"and has END\", \"and provides N\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|188|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"C appears to be\", \"matches the pattern\", \"moving from the machine version to the manual version\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|18_2|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "in-tegr-eight": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"literally goes IN\", \"gives me\", \"That's the answer\"]",
+        "is_chosen": 0
+      },
+      "teightgr": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"doesn't work\"]",
+        "is_chosen": 0
+      },
+      "teategr": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"maybe the 8 represents\", \"so \\\"te\\\" + \\\"ate\\\" + \\\"gr\\\"\"]",
+        "is_chosen": 0
+      },
+      "eight": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"8 (eight) inside\", \"replace 8 with \\\"eight\\\"\"]",
+        "is_chosen": 0
+      },
+      "te8gr": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"The text shows\", \"look again\"]",
+        "is_chosen": 0
+      },
+      "integrate": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"That's the answer\", \"gives me \\\"in-tegr-eight\\\"\"]",
+        "is_chosen": 1
+      },
+      "tegr": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"8 is placed inside\", \"between te and gr\"]",
+        "is_chosen": 0
+      },
+      "ate": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"8 represents \\\"ate\\\"\", \"pieces of \\\"integrate\\\"\"]",
+        "is_chosen": 0
+      },
+      "gr": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"between \\\"te\\\" and \\\"gr\\\"\", \"inside \\\"tegr\\\"\"]",
+        "is_chosen": 0
+      },
+      "te": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"between \\\"te\\\" and \\\"gr\\\"\", \"inside \\\"tegr\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_068|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "road tests": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"letters match perfectly\", \"fits perfectly\", \"confirms the definition\", \"confident in\"]",
+        "is_chosen": 1
+      },
+      "started so": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"available letters\", \"is indeed the fodder\", \"9-letter phrase\"]",
+        "is_chosen": 0
+      },
+      "trials": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"reasonable definition\", \"definition: \\\"trials\\\"\"]",
+        "is_chosen": 0
+      },
+      "mock trials": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"checking \\\"road tests\\\" vs\", \"mock trials\"]",
+        "is_chosen": 0
+      },
+      "jury trials": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"checking \\\"road tests\\\" vs\", \"jury trials\"]",
+        "is_chosen": 0
+      },
+      "soft cases": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"checking \\\"road tests\\\" vs\", \"soft cases\"]",
+        "is_chosen": 0
+      },
+      "hard times": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"checking \\\"road tests\\\" vs\", \"hard times\"]",
+        "is_chosen": 0
+      },
+      "t e s t c a s e s": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"don't match\", \"letters \\\"T E S T C A S E S\\\"\"]",
+        "is_chosen": 0
+      },
+      "test cases": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"don't match\", \"Could it be \\\"TEST CASES\\\"?\"]",
+        "is_chosen": 0
+      },
+      "badly": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"anagram indicator\", \"strongly suggests an anagram\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 2.5 Pro|719|un_augmented": {
+    "chosen_conf": 100.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Not running, so it's out\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"not running\", \"action of sorts, but\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Wrong subject and wrong state\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 100.0,
+        "judge_ngrams": "[\"Bingo!\", \"perfectly mirrors\", \"undoubtedly\", \"The puzzle is solved!\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|18_2|un_augmented": {
+    "chosen_conf": 30.0,
+    "candidates": {
+      "teater": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"the word is \\\"teater\\\"\", \"but that's not a word\", \"but no\"]",
+        "is_chosen": 0
+      },
+      "tea for": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"phrase is \\\"tea for\\\"\", \"but no\", \"Wait, no\"]",
+        "is_chosen": 0
+      },
+      "te8gr": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"image has \\\"te8gr\\\"\", \"break it down\", \"letters are t, e, 8, g, r\"]",
+        "is_chosen": 0
+      },
+      "t e 8 g r": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"maybe \\\"te\\\" + \\\"8\\\" + \\\"gr\\\" \\u2192 \\\"t e 8 g r\\\"\", \"letters are t, e, 8, g, r\"]",
+        "is_chosen": 0
+      },
+      "teeter": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"might be \\\"teeter\\\"\", \"but no\", \"think of the word \\\"teeter\\\"\"]",
+        "is_chosen": 0
+      },
+      "teategr": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"\\u2192 \\\"teategr\\\"?\", \"No\", \"does n't make sense\"]",
+        "is_chosen": 0
+      },
+      "gr": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"maybe \\\"gr\\\" is \\\"girl\\\"\", \"no\"]",
+        "is_chosen": 0
+      },
+      "text": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"I think the answer is \\\"text\\\"\", \"but I'm wrong\", \"but I'm not sure\", \"missing something\", \"assume the answer is \\\"text\\\"\"]",
+        "is_chosen": 1
+      },
+      "ate": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"8 sounds like \\\"ate\\\"\", \"8 is \\\"ate\\\"\", \"8 represents words or sounds\"]",
+        "is_chosen": 0
+      },
+      "te": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"\\\"te\\\" + \\\"8\\\" + \\\"gr\\\"\", \"there's \\\"te\\\" before 8\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_088|un_augmented": {
+    "chosen_conf": 30.0,
+    "candidates": {
+      "boutique": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"the answer would be \\\"BOUTIQUE\\\"\", \"it's a stretch\", \"probably not homophone\", \"doesn't make sense\"]",
+        "is_chosen": 1
+      },
+      "bloody": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"but it's 6 letters\", \"not 8\", \"not related\"]",
+        "is_chosen": 0
+      },
+      "outside": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"anagram of \\\"tedious\\\" is \\\"outside\\\"\", \"but still 7 letters\", \"need 8\"]",
+        "is_chosen": 0
+      },
+      "dickensian": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"not the answer but a clue element\", \"too long\", \"not part of the wordplay\"]",
+        "is_chosen": 0
+      },
+      "slog": {
+        "judge_confidence": 5.0,
+        "judge_ngrams": "[\"not 4\", \"not helpful\", \"not the indicator\"]",
+        "is_chosen": 0
+      },
+      "bound": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"not clear\", \"seems unlikely\", \"part of it\"]",
+        "is_chosen": 0
+      },
+      "tedious": {
+        "judge_confidence": 5.0,
+        "judge_ngrams": "[\"not a number\", \"not helpful\", \"can't be just \\\"tedious\\\" anagrammed\"]",
+        "is_chosen": 0
+      },
+      "ian": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"not helpful\", \"not specified\", \"suffix to be added\"]",
+        "is_chosen": 0
+      },
+      "dickens": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"key part\", \"not for 8 letters\", \"doesn't provide enough letters\"]",
+        "is_chosen": 0
+      },
+      "dick": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"is 4 letters\", \"not 8\", \"not specified\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 2.5 Pro|52|un_augmented": {
+    "chosen_conf": 40.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"first two options are out\", \"repeat the pattern\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"first two options are out\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"does make the best connection in a direct way\", \"doesn't do enough to differentiate it\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"probably the correct response\", \"eating bread is the best option\", \"seems correct\", \"solidifies my thinking\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Sonnet 4.6|puzzle133.gif|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "13579 vs u": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"I see\", \"13579 vs U\"]",
+        "is_chosen": 0
+      },
+      "odds against you": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"So it's\", \"odds against you\", \"The phrase would be\"]",
+        "is_chosen": 1
+      },
+      "odd numbers vs u": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"So it's\", \"odd numbers vs U\", \"odds against you\"]",
+        "is_chosen": 0
+      },
+      "the odds are against you": {
+        "judge_confidence": 80.0,
+        "judge_ngrams": "[\"The phrase would be\", \"the odds are against you\"]",
+        "is_chosen": 0
+      },
+      "odd numbers against you": {
+        "judge_confidence": 70.0,
+        "judge_ngrams": "[\"odd numbers against you\", \"equals\", \"odds against you\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 3 Pro|cc_059|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "yak yak": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"immediately jumps to\", \"good fit\", \"makes sense\", \"most straightforward answer\"]",
+        "is_chosen": 1
+      },
+      "lengthy talk": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"suggests\", \"equals\"]",
+        "is_chosen": 0
+      },
+      "repeatedly": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"implying a doubled word\", \"would equal\"]",
+        "is_chosen": 0
+      },
+      "chat chat": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"What about CHAT CHAT?\"]",
+        "is_chosen": 0
+      },
+      "wah wah": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"Or WAH WAH?\"]",
+        "is_chosen": 0
+      },
+      "yap yap": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"What about YAP YAP\"]",
+        "is_chosen": 0
+      },
+      "gab gab": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"GAB GAB?\"]",
+        "is_chosen": 0
+      },
+      "seat that's flexible to the end": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"throwing me a curveball\", \"doesn't fit\", \"throwing me off\"]",
+        "is_chosen": 0
+      },
+      "to the end": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"tricky bit\", \"throwing me a curveball\"]",
+        "is_chosen": 0
+      },
+      "jaw jaw": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"suggests\", \"about the BUM? Too simple\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|795|un_augmented": {
+    "chosen_conf": 65.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"I'll go with C\", \"most directly parallels\", \"since both Origin and Origin' show a person directing\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"points to D\", \"D seems to show\", \"could be outdoor\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|puzzle110.gif|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "head in sand": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"could this be\", \"head in sand\", \"I think I've got it\", \"that's head in sand\"]",
+        "is_chosen": 0
+      },
+      "head in the sand": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"head in the sand\", \"actually, looking at it\", \"or is the answer\"]",
+        "is_chosen": 1
+      },
+      "sand": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"word sand is formed\", \"putting head inside of\", \"s...and\"]",
+        "is_chosen": 0
+      },
+      "ahead and": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"could that spell out\", \"ahead and\", \"no, that's not right\"]",
+        "is_chosen": 0
+      },
+      "s h e a d a n d": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"image shows the text\", \"s h e a d a n d\", \"letters spell out\"]",
+        "is_chosen": 0
+      },
+      "head and shoulders": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"maybe it's head and shoulders\", \"no wait\", \"no\"]",
+        "is_chosen": 0
+      },
+      "s head and": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"doesn't make sense as a rebus\", \"s head and\", \"looking at the positioning again\"]",
+        "is_chosen": 0
+      },
+      "head and": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"head is between\", \"then head and\", \"head and and\"]",
+        "is_chosen": 0
+      },
+      "head": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"head is in the middle\", \"head inside of\"]",
+        "is_chosen": 0
+      },
+      "and": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"s and the and\", \"on the outside\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_052|un_augmented": {
+    "chosen_conf": 91.0,
+    "candidates": {
+      "soda": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"drink could be soda\", \"but that's 4 letters\"]",
+        "is_chosen": 0
+      },
+      "port": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"port is a drink\", \"doesn't mean fuss\"]",
+        "is_chosen": 0
+      },
+      "ado": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"fuss can be ado\", \"ado is 3 letters\"]",
+        "is_chosen": 0
+      },
+      "fusses over drink": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"fusses over drink\", \"split the clue\"]",
+        "is_chosen": 0
+      },
+      "over drink": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"over drink is the wordplay\", \"over drink = answer\"]",
+        "is_chosen": 0
+      },
+      "stir": {
+        "judge_confidence": 91.0,
+        "judge_ngrams": "[\"answer is STIR\", \"STIR is the answer\", \"stir fits both parts\", \"answer is stir\"]",
+        "is_chosen": 1
+      },
+      "fusses": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"fusses is the definition\", \"fusses as a verb\", \"fusses is the anagram indicator\"]",
+        "is_chosen": 0
+      },
+      "drink": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"drink as a synonym\", \"drink is probably the wordplay\"]",
+        "is_chosen": 0
+      },
+      "over": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"over can mean\", \"over as a reversal indicator\", \"over is probably just a connector\"]",
+        "is_chosen": 0
+      },
+      "fuss": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"fuss as a synonym for stir\", \"fusses is the plural of fuss\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|932|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"C matches this pattern\", \"preserves the age characteristic\", \"applying the same transformation\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|puzzle104.gif|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "tax bracket": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"Oh, I see it now\", \"That's the answer: tax bracket\", \"mean it's enclosed or contained\"]",
+        "is_chosen": 1
+      },
+      "bracket income tax": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"could be \\\"income tax in brackets\\\"\", \"hmm\"]",
+        "is_chosen": 0
+      },
+      "gross income tax": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"No...\", \"curly braces could represent \\\"gross\\\"\"]",
+        "is_chosen": 0
+      },
+      "income tax in brackets": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be \\\"income tax in brackets\\\"\", \"curly braces are also called \\\"brackets\\\"\"]",
+        "is_chosen": 0
+      },
+      "gross": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"represent \\\"gross\\\"\", \"No...\"]",
+        "is_chosen": 0
+      },
+      "in brackets": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"represent \\\"in brackets\\\"\", \"curly braces are also called \\\"brackets\\\"\"]",
+        "is_chosen": 0
+      },
+      "income tax": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"text \\\"income tax\\\" is inside\", \"brackets around \\\"income tax\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_026|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "per and tor on the outside": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"remaining letters spell\", \"on the outside\"]",
+        "is_chosen": 0
+      },
+      "percolator": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"PERCOLATOR (10 letters!)\", \"fits perfectly\", \"definitely a 10-letter\", \"confident PERCOLATOR is the answer\"]",
+        "is_chosen": 1
+      },
+      "a soft drink": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"part of the wordplay\", \"rather than the main definition\"]",
+        "is_chosen": 0
+      },
+      "soft-drink": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"just misdirection\", \"on the surface\"]",
+        "is_chosen": 0
+      },
+      "filter machine": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"is indeed a filter machine\", \"being the actual definition\"]",
+        "is_chosen": 0
+      },
+      "should contain": {
+        "judge_confidence": 61.0,
+        "judge_ngrams": "[\"means one word contains another\", \"containment indicator\"]",
+        "is_chosen": 0
+      },
+      "each": {
+        "judge_confidence": 61.0,
+        "judge_ngrams": "[\"breaks down as PER\", \"each high spot\"]",
+        "is_chosen": 0
+      },
+      "high spot": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"refers to COL\", \"another high spot\", \"like a rocky tor\"]",
+        "is_chosen": 0
+      },
+      "soft drink": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"soft drink = POP, COLA, SODA\", \"soft drink is COLA?\", \"hidden in the clue\"]",
+        "is_chosen": 0
+      },
+      "col": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"mountain pass\", \"which is a high spot\", \"embedded in COL\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Pro|878|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"A is the only logical choice!\", \"Candidate A fits perfectly\", \"The visual similarity is remarkable\", \"The mapping looks solid\"]",
+        "is_chosen": 1
+      },
+      "B": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"B is just light vortex\", \"doesn't capture the essence\", \"closer match to the fire tornado, not the coals\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"No analogy here\", \"just another fire\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"just another fire\", \"No analogy here\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|12_9|un_augmented": {
+    "chosen_conf": 35.0,
+    "candidates": {
+      "difoodan rebus": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"search for \\\"difoodan rebus\\\"\", \"maybe it's \\\"dinner\\\" but no\"]",
+        "is_chosen": 0
+      },
+      "difoodan": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"the word is \\\"difoodan\\\"\", \"check the letters again: d-i-f-o-o-d-a-n\"]",
+        "is_chosen": 0
+      },
+      "food": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"split into \\\"di\\\", \\\"food\\\", \\\"an\\\"\", \"di - food - an\"]",
+        "is_chosen": 0
+      },
+      "an": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"di\\\" and \\\"an\\\" might be parts\", \"if you remove \\\"i\\\", \\\"a\\\", \\\"n\\\", but no\"]",
+        "is_chosen": 0
+      },
+      "dinner": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"I think I'm wrong\", \"I have to guess\", \"The answer is \\\"dinner\\\"\", \"maybe the correct answer is \\\"dinner\\\" but no\"]",
+        "is_chosen": 1
+      },
+      "di": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"di\\\" could be \\\"dinner\\\", but no\", \"if you take \\\"di\\\" as \\\"dinner\\\", but no\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_053|un_augmented": {
+    "chosen_conf": 45.0,
+    "candidates": {
+      "call by": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"visit sounds like corby\", \"homophone for \\\"call by\\\"\", \"corby sounds like \\\"call by\\\"\"]",
+        "is_chosen": 0
+      },
+      "call in": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"answer should be \\\"call in\\\"\", \"how to get \\\"call in\\\"\", \"most plausible answer\"]",
+        "is_chosen": 1
+      },
+      "visit": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "out for me": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"\\\"out for me\\\" could mean remove I\", \"indicating that \\\"out for me\\\" is the definition\", \"me is outside\"]",
+        "is_chosen": 0
+      },
+      "that's right": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"that's right\\\" could be \\\"it's right\\\"\", \"might be \\\"it's R\\\"\", \"could be \\\"tis\\\"\"]",
+        "is_chosen": 0
+      },
+      "for me": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"for me\\\" could be \\\"me\\\" as in \\\"I\\\"\", \"remove I from \\\"for me\\\"\"]",
+        "is_chosen": 0
+      },
+      "corby": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"\\\"corby\\\" is a place\", \"might be a homophone\", \"is a red herring\"]",
+        "is_chosen": 0
+      },
+      "out": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"out\\\" might be indicating an anagram\", \"remove I from some word\", \"indicates the last letter\"]",
+        "is_chosen": 0
+      },
+      "me": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"\\\"me\\\" as in \\\"I\\\"\", \"\\\"me\\\" is to be removed\"]",
+        "is_chosen": 0
+      },
+      "in": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"the second word is \\\"in\\\"\", \"opposite of \\\"I'm out\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Opus 4.6|568|un_augmented": {
+    "chosen_conf": 20.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"A (child in snow) fits that shift\", \"A shows just one child\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"neither really captures that multiplicity\", \"C shows one person biking\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 3 Flash|16_11|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "ha": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"segment it: \\\"ha\\\"\", \"with a bit of \\\"ha\\\"\"]",
+        "is_chosen": 0
+      },
+      "nd": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"\\\"hand\\\", \\\"nd\\\"\", \"bit of \\\"ha\\\" and \\\"nd\\\"\"]",
+        "is_chosen": 0
+      },
+      "hand": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"word \\\"hand\\\" inside\", \"another \\\"hand\\\"\", \"Yes!\", \"this fits\"]",
+        "is_chosen": 0
+      },
+      "hand in hand": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"Yes!\", \"looks like \\\"hand in hand\\\"\", \"It's the word\"]",
+        "is_chosen": 1
+      },
+      "hahandnd": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"presents this string: \\\"hahandnd\\\"\", \"segment it\", \"doesn't feel right\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_095|un_augmented": {
+    "chosen_conf": 65.0,
+    "candidates": {
+      "clinical": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"good fit\", \"also a good fit\"]",
+        "is_chosen": 1
+      },
+      "explicit": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"EXPLICIT is a candidate\", \"also consider EXPLICIT\"]",
+        "is_chosen": 0
+      },
+      "cuts": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"L cuts DAGGER\", \"L cuts into it\", \"used to cut\"]",
+        "is_chosen": 0
+      },
+      "sort of knife": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"needs classification\", \"toy with the idea\", \"how can I find a\"]",
+        "is_chosen": 0
+      },
+      "left": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"the interesting bit\", \"could be some form\", \"if left is L\"]",
+        "is_chosen": 0
+      },
+      "cut": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"used to cut\", \"associated with a tool\"]",
+        "is_chosen": 0
+      },
+      "sort of": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"it is kind, or type\", \"toy with the idea\"]",
+        "is_chosen": 0
+      },
+      "sort": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"toy with the idea\", \"consider sort as\", \"means AS\"]",
+        "is_chosen": 0
+      },
+      "precise": {
+        "judge_confidence": 61.0,
+        "judge_ngrams": "[\"well, that's the core\", \"loops back to\", \"defines the solution\"]",
+        "is_chosen": 0
+      },
+      "knife": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"needs classification\", \"can be SWORD, BLADE\", \"equal to PENKNIFE?\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|628|un_augmented": {
+    "chosen_conf": 75.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"making it the parallel\", \"maintains that air-based recreational element\", \"D shows hot air balloons in the sky\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Claude Sonnet 4.6|18_2|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "tiger": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"no 8 in tiger\", \"circling back to TIGER\", \"simplest word like \\\"TIGER\\\"\", \"none of them cleanly spell TIGER\", \"not confident in that path\"]",
+        "is_chosen": 0
+      },
+      "te8gr": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"image shows \\\"te8gr\\\"\", \"sounds like \\\"tee-eight-gr\\\"\"]",
+        "is_chosen": 0
+      },
+      "integrate": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"INTEGRATE keeps coming back as the strongest candidate\", \"matches perfectly with the rebus elements\", \"going to go with INTEGRATE\", \"settling on INTEGRATE\", \"spells \\\"INTEGRATE\\\"\"]",
+        "is_chosen": 1
+      },
+      "eight": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"8 sounds like \\\"eight\\\"\", \"t + e8 + gr\"]",
+        "is_chosen": 0
+      },
+      "integra": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"What about \\\"INTEGRA\\\"\", \"something like \\\"Integra\\\"\"]",
+        "is_chosen": 0
+      },
+      "ight": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"8 could represent \\\"ight\\\"\", \"extract just the \\\"ight\\\" sound\"]",
+        "is_chosen": 0
+      },
+      "ate": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"8 sounds like \\\"ate\\\"\", \"8 representing \\\"ate\\\" would complete the pattern\"]",
+        "is_chosen": 0
+      },
+      "gr": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"\\\"gr\\\" + \\\"8\\\" (eight/ate) = \\\"great\\\"\", \"order is te8gr, not tegr8\"]",
+        "is_chosen": 0
+      },
+      "te": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"\\\"te\\\" sounds like part of \\\"together\\\"\", \"what if \\\"te\\\" \\u2192 \\\"the\\\"\"]",
+        "is_chosen": 0
+      },
+      "in": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"in\\\" part isn't visible\", \"rebus doesn't seem to show where \\\"in\\\" comes from\", \"figuring out where \\\"in\\\" comes from\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_060|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "erasure": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"testing if ERASURE works\", \"ERA + SURE = ERASURE\", \"confident the answer is ERASURE\"]",
+        "is_chosen": 1
+      },
+      "an area": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could indicate a region\", \"treating \\\"an area\\\" as ZONE\", \"don't seem to fit into the wordplay\"]",
+        "is_chosen": 0
+      },
+      "of course": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"definition or part of wordplay\", \"often means \\\"naturally\\\"\", \"golf course area\", \"gives SURE\"]",
+        "is_chosen": 0
+      },
+      "by age": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"by era/eon/age\", \"contains ERA\", \"gives ERA\"]",
+        "is_chosen": 0
+      },
+      "erased": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"could mean erased\", \"ERA sits right at the start\", \"directly means ERASED\"]",
+        "is_chosen": 0
+      },
+      "that's": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"don't seem to fit\"]",
+        "is_chosen": 0
+      },
+      "an area that's rubbed out": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"definition \\\"an area that's rubbed out\\\"\", \"describing what an erasure is\"]",
+        "is_chosen": 0
+      },
+      "rubbed out": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"could mean erased\", \"gives me the word itself\"]",
+        "is_chosen": 0
+      },
+      "naturally": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"often means \\\"naturally\\\"\"]",
+        "is_chosen": 0
+      },
+      "rubbed out by age": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"erased by time?\", \"how \\\"rubbed out by age\\\" might work\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Pro|994|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"stone carving\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"B it is\", \"B matches\", \"Candidate B\", \"I think a person working with wood\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"dump trucks, not working with the material\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"house framing, also assembly, not material processing\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|13_12|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "fortunate": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"sounds awfully close to\", \"phonetics match up\", \"Clever!\", \"So, the answer is\", \"Perfect!\"]",
+        "is_chosen": 1
+      },
+      "four-tuna-eight": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"string it together\", \"Wait a minute\", \"leads to\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_053|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "me": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"adding \\\"ME\\\" to\", \"Coby + ME\", \" gets to COME BY\"]",
+        "is_chosen": 0
+      },
+      "for": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"hint is \\\"for\\\"\", \"as a connector\"]",
+        "is_chosen": 0
+      },
+      "come by": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"\\\"COME BY\\\" feels right\", \"Perfect!\", \"COME BY! Let's try that\", \"solution is \\\"COME BY\\\"\"]",
+        "is_chosen": 1
+      },
+      "right out": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"probably means \\\"remove R\\\"\", \"usually means \\\"R\\\"\", \"right out for me!\"]",
+        "is_chosen": 0
+      },
+      "corby": {
+        "judge_confidence": 80.0,
+        "judge_ngrams": "[\"Remove R from \\\"Corby\\\"\", \"without \\\"R\\\" is \\\"Coby\\\"\"]",
+        "is_chosen": 0
+      },
+      "right": {
+        "judge_confidence": 70.0,
+        "judge_ngrams": "[\"usually means \\\"R\\\"\", \"right out\", \"remove R\"]",
+        "is_chosen": 0
+      },
+      "visit": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"likely the definition\", \"is a visit\"]",
+        "is_chosen": 0
+      },
+      "call in": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"could mean \\\"CALL IN\\\"\", \"Let's start there\"]",
+        "is_chosen": 0
+      },
+      "out": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"typically a deletion indicator\", \"right out\"]",
+        "is_chosen": 0
+      },
+      "coby": {
+        "judge_confidence": 80.0,
+        "judge_ngrams": "[\"left with \\\"Coby\\\"\", \"Coby + ME\", \"COBY + ME = COME BY\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Pro|817|un_augmented": {
+    "chosen_conf": 100.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"A no-go\", \"matches first pair, not second\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Incorrect\", \"doesn't match\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Another no\", \"just another animal picture\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 100.0,
+        "judge_ngrams": "[\"This is the match\", \"Perfect!\", \"Candidate D fits perfectly\", \"This is the correct analogy\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|23_7|un_augmented": {
+    "chosen_conf": 45.0,
+    "candidates": {
+      "core road": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"road, so \\\"core road\\\" \\u2014 no\"]",
+        "is_chosen": 0
+      },
+      "coreway": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"maybe \\\"coreway\\\" but no\", \"but that's not\"]",
+        "is_chosen": 0
+      },
+      "route": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"road is a \\\"route\\\"\", \"but no\"]",
+        "is_chosen": 0
+      },
+      "core way": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"not a phrase\", \"but that's not it\", \"no\"]",
+        "is_chosen": 0
+      },
+      "core highway": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"not a standard phrase\", \"not a common phrase\", \"I think I have to go with that\", \"not a phrase\", \"maybe the answer is \\\"core highway\\\" but I think the correct answer is \\\"core highway\\\". No, I'm not sure.\"]",
+        "is_chosen": 1
+      },
+      "core high": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"\\\"core high\\\"? No\"]",
+        "is_chosen": 0
+      },
+      "highway": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"road is a \\\"highway\\\"\", \"highway is a \\\"highway\\\"\"]",
+        "is_chosen": 0
+      },
+      "high": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"maybe \\\"core\\\" + \\\"high\\\"\", \"no\"]",
+        "is_chosen": 0
+      },
+      "way": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"highway is \\\"way\\\"\", \"but that's not it\"]",
+        "is_chosen": 0
+      },
+      "core": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"apple core is \\\"core\\\"\", \"sounds like \\\"core\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|GPT-5|cc_089|un_augmented": {
+    "chosen_conf": 40.0,
+    "candidates": {
+      "ozark": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"Ozark in Missouri fits\", \"contains that OZ\", \"Ozark might be the best fit\"]",
+        "is_chosen": 0
+      },
+      "ttin": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"awkward combinations\", \"TTIN\"]",
+        "is_chosen": 0
+      },
+      "us city": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"likely definition is a US city\", \"US city of length 5\", \"rethink how US city fits\"]",
+        "is_chosen": 0
+      },
+      "austin": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"initialy think of Austin\", \"6-letter city\", \"doesn't fit the 5-letter enumeration\", \"puzzled\"]",
+        "is_chosen": 1
+      },
+      "aust": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"Aussie means AUST\", \"maybe the T is unnecessary\"]",
+        "is_chosen": 0
+      },
+      "aussie": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"aussie might be OZ\", \"connects to OZ\", \"gives me AUS\"]",
+        "is_chosen": 0
+      },
+      "start to travel": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"gives me T\", \"insert T into TIN\"]",
+        "is_chosen": 0
+      },
+      "can": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"can could mean tin\", \"relate to ark\", \"isn't exactly a can\"]",
+        "is_chosen": 0
+      },
+      "aus": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"Aussie gives me AUS\", \"AUS plus TIN\", \"already creates AUSTIN\"]",
+        "is_chosen": 0
+      },
+      "tin": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"can is TIN\", \"OZ combined with TIN\", \"T into TIN\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|1113|un_augmented": {
+    "chosen_conf": 30.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"ends with the answer B\", \"reasoning for it\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"points to D\", \"D works as the answer\", \"realizing it parallels\", \"D and realizing it parallels\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Claude Opus 4.6|24_5|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "sit around": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"wonder if \\\"sit around\\\" could work\", \"doesn't feel like a typical rebus answer\"]",
+        "is_chosen": 0
+      },
+      "turn right": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"arrow pointing to the right\", \"like a \\\"turn right\\\"\", \"arrow might mean \\\"turn\\\"\"]",
+        "is_chosen": 0
+      },
+      "recline": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"What about \\\"RECLINE\\\"\", \"person does look like they could be reclining\"]",
+        "is_chosen": 0
+      },
+      "that's right": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"becomes \\\"THAT'S RIGHT\\\"?\", \"perhaps this is just a transit sign\"]",
+        "is_chosen": 0
+      },
+      "seat right": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"\\\"Seat right\\\" - no\"]",
+        "is_chosen": 0
+      },
+      "come": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"arrow could represent \\\"come\\\"\", \"arrow suggests COM (coming or going)\"]",
+        "is_chosen": 0
+      },
+      "sit right": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"\\\"Sit right\\\" - no\", \"I'll go with \\\"SIT RIGHT\\\"\", \"no, that's not a thing\"]",
+        "is_chosen": 0
+      },
+      "sitcom": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"settle on SITCOM as my best guess\", \"commit to SITCOM since it's the most satisfying\", \"SITCOM feels like the strongest answer\", \"confident SITCOM is the answer\"]",
+        "is_chosen": 1
+      },
+      "back": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"arrow represents \\\"back\\\"\", \"arrow points forward rather than backward\"]",
+        "is_chosen": 0
+      },
+      "re": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"the arrow could represent \\\"redo/re\\\"\", \"not sure how a person sitting translates to \\\"RE\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_029|un_augmented": {
+    "chosen_conf": 65.0,
+    "candidates": {
+      "aloha": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"answer is probably ALOHA\", \"guess ALOHA\", \"reverse-engineer\", \"how to get ALOHA\", \"doesn't have S\"]",
+        "is_chosen": 1
+      },
+      "hello": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"assume the answer is HELLO\", \"too short\", \"too long\", \"circular\"]",
+        "is_chosen": 0
+      },
+      "main": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"part of large one could be main\", \"mainland\", \"not a greeting\"]",
+        "is_chosen": 0
+      },
+      "covers": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"suggests that the greeting is surrounding something\", \"indicator for a container\", \"container indicator\"]",
+        "is_chosen": 0
+      },
+      "greeting": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"greeting is the definition\", \"greeting might be a word like HELLO\", \"common 5-letter greetings\"]",
+        "is_chosen": 0
+      },
+      "small island": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be a word like ISLE\", \"abbreviated as I\", \"could be S plus an island\", \"SI\"]",
+        "is_chosen": 0
+      },
+      "part of large one": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"substring of the word large or one\", \"could be land\", \"large is L\", \"one is I\"]",
+        "is_chosen": 0
+      },
+      "small": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"abbreviation for small, which is S\", \"modifier for island\"]",
+        "is_chosen": 0
+      },
+      "one": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"one is I\", \"Roman numeral\", \"word one\"]",
+        "is_chosen": 0
+      },
+      "large": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"large could be L\", \"abbreviation\", \"large as in big\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|570|un_augmented": {
+    "chosen_conf": 85.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"dog and a person\", \"but no human pulling a leash\", \"A seems to be a dog near a red fire hydrant\", \"not clear if pulling rope\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"B is military people\", \"but they are not pulling anything\", \"B has four people, which doesn't match\", \"soldiers, not pulling anything\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"similar to Origin'\", \"but it's a dog, not human\", \"not the analogy; we need a human version\", \"C is another dog image\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"D is the only one with a single human\", \"best match\", \"only possible candidate for a human version\", \"D is the answer\", \"fits the professional theme\", \"only D has one person\", \"D is the only single person candidate\"]",
+        "is_chosen": 1
+      }
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|p47|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "crystal blue": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"crystal blue is a phrase\", \"That makes sense\", \"So the answer is\", \"combining the word and the color\"]",
+        "is_chosen": 1
+      },
+      "crystal": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"The word is \\\"crystal\\\"\", \"the word \\\"crystal\\\" is written\", \"but maybe the color\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_079|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "a set": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"a set is the phrase\", \"combined\", \"not valid\"]",
+        "is_chosen": 0
+      },
+      "tone": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"note could be tone\", \"doesn't relate to scenery\", \"Not matching\"]",
+        "is_chosen": 0
+      },
+      "aset": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"not a word\", \"not valid\", \"not valid\"]",
+        "is_chosen": 0
+      },
+      "seat": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"doesn't mean scenery\", \"not matching\"]",
+        "is_chosen": 0
+      },
+      "a piece of stage scenery": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"maybe the definition\", \"a piece of scenery\", \"scenery piece\"]",
+        "is_chosen": 0
+      },
+      "flat": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"answer is FLAT\", \"fits 4 letters\", \"that fits\", \"both: the musical note\", \"piece of scenery is correct\"]",
+        "is_chosen": 1
+      },
+      "a piece of": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"taking a part\", \"indicates taking a part\"]",
+        "is_chosen": 0
+      },
+      "stage": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"often is set\", \"term\", \"verbs meaning to put on\"]",
+        "is_chosen": 0
+      },
+      "set": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"piece of stage scenery\", \"is the scenery\", \"set is 3 letters\"]",
+        "is_chosen": 0
+      },
+      "note": {
+        "judge_confidence": 60.0,
+        "judge_ngrams": "[\"maybe the definition\", \"the wordplay part\", \"as in flat note\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Flash|932|un_augmented": {
+    "chosen_conf": 90.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 25.0,
+        "judge_ngrams": "[\"Candidate A fails due to the demographic mismatch\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 20.0,
+        "judge_ngrams": "[\"Candidate B repeats the action\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 90.0,
+        "judge_ngrams": "[\"This supports Candidate C\", \"reinforces C again\", \"Candidate C fits the pattern best\", \"My answer is C\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Candidate D is completely unrelated\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|puzzle110.gif|un_augmented": {
+    "chosen_conf": 100.0,
+    "candidates": {
+      "and": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"\\\"and\\\" surround it\", \"s-head-and\"]",
+        "is_chosen": 0
+      },
+      "sand": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"remembered the concept of \\\"sand\\\"\", \"inside \\\"sand\\\"\", \"form of \\\"s-and\\\"\"]",
+        "is_chosen": 0
+      },
+      "head": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"focusing on the word \\\"head\\\"\", \"inside \\\"sand\\\"? The word \\\"head\\\"\", \"s-head-and\"]",
+        "is_chosen": 0
+      },
+      "head in the sand": {
+        "judge_confidence": 100.0,
+        "judge_ngrams": "[\"Bingo\", \"The solution is the idiom\", \"head in the sand\", \"I'm confident\"]",
+        "is_chosen": 1
+      },
+      "s-and": {
+        "judge_confidence": 85.0,
+        "judge_ngrams": "[\"inside a form of \\\"s-and\\\"\", \"s-and\"]",
+        "is_chosen": 0
+      },
+      "sheadand": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"looked at the string \\\"sheadand\\\"\", \"single unit\"]",
+        "is_chosen": 0
+      },
+      "s h e a d a n d": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"shows the letters \\\"s h e a d a n d\\\"\", \"string of letters\"]",
+        "is_chosen": 0
+      },
+      "she head and": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"she head and\\\", and other word combinations\", \"didn't suggest anything obvious\"]",
+        "is_chosen": 0
+      },
+      "s head and": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"\\\"s head and\\\" didn't suggest anything obvious\"]",
+        "is_chosen": 0
+      },
+      "she ad and": {
+        "judge_confidence": 30.0,
+        "judge_ngrams": "[\"segmenting it into \\\"she ad and\\\"\", \"didn't suggest anything obvious\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_044|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "erasure": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"ERASURE!\", \"matching exactly\", \"all constraints satisfied\", \"ERASURE (rearranged?\", \"So \\\"obliteration\\\" is the definition\"]",
+        "is_chosen": 1
+      },
+      "obliteration of characters in rare use": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"obliteration of characters in rare use\", \"I need to find\"]",
+        "is_chosen": 0
+      },
+      "obliteration": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"definition for ERASURE\", \"could be the definition\"]",
+        "is_chosen": 0
+      },
+      "of": {
+        "judge_confidence": 70.0,
+        "judge_ngrams": "[\"acts as the anagram indicator\", \"rearranging \\\"rare use\\\"\"]",
+        "is_chosen": 0
+      },
+      "obliteration of": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"could be the definition\"]",
+        "is_chosen": 0
+      },
+      "characters in rare use": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"could be the wordplay\", \"letters contained in\"]",
+        "is_chosen": 0
+      },
+      "rare use": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"match ERASURE exactly\", \"hidden word in\", \"rearranging \\\"rare use\\\"\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Gemini 3 Flash|188|un_augmented": {
+    "chosen_conf": 95.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Not relevant\", \"totally different\", \"gardening, irrelevant\"]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 15.0,
+        "judge_ngrams": "[\"Not hand-made at all\", \"just more machines\", \"goes in the opposite direction\"]",
+        "is_chosen": 0
+      },
+      "C": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"C is definitely the winner\", \"fits best\", \"fits perfectly\", \"confident that C is the correct response\", \"relationships in the two sets match perfectly\"]",
+        "is_chosen": 1
+      },
+      "D": {
+        "judge_confidence": 10.0,
+        "judge_ngrams": "[\"Not right\", \"gardening, irrelevant\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Rebus|GPT-5|p30|un_augmented": {
+    "chosen_conf": 50.0,
+    "candidates": {
+      "bird's eye view": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"leads me to think\", \"version without it\"]",
+        "is_chosen": 1
+      },
+      "bird's-eye view": {
+        "judge_confidence": 95.0,
+        "judge_ngrams": "[\"leads me to think\", \"common phrasing\", \"widely accepted form\", \"ANSWER: bird's-eye view\"]",
+        "is_chosen": 0
+      },
+      "view": {
+        "judge_confidence": 40.0,
+        "judge_ngrams": "[\"word \\\"view\\\" above\", \"positioning\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_046|un_augmented": {
+    "chosen_conf": 28.0,
+    "candidates": {
+      "scowled": {
+        "judge_confidence": 28.0,
+        "judge_ngrams": "[\"synonyms such as \\\"scowl\\\"\", \"No luck\"]",
+        "is_chosen": 1
+      },
+      "flawed": {
+        "judge_confidence": 41.0,
+        "judge_ngrams": "[\"consider its synonyms\", \"such as \\\"flawed\\\"\"]",
+        "is_chosen": 0
+      },
+      "seen": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"\\\"spotted\\\" could be \\\"seen\\\"\", \"could mean \\\"seen\\\"\"]",
+        "is_chosen": 0
+      },
+      "glower after brothel-owner spotted": {
+        "judge_confidence": 35.0,
+        "judge_ngrams": "[\"I am going to try the phrase\", \"It makes no sense\"]",
+        "is_chosen": 0
+      },
+      "after": {
+        "judge_confidence": 45.0,
+        "judge_ngrams": "[\"\\\"After\\\" is an indicator\", \"the word after is a red herring\"]",
+        "is_chosen": 0
+      },
+      "glower": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"meaning \\\"to stare angrily\\\"\", \"definition part\", \"likely the definition\"]",
+        "is_chosen": 0
+      },
+      "madam": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"brothel-owner\\\" - I'll think of \\\"madam\\\"\", \"always \\\"MADAM\\\"\"]",
+        "is_chosen": 0
+      },
+      "brothel-owner spotted": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"is the wordplay\", \"wordplay with brothel-owner spotted\"]",
+        "is_chosen": 0
+      },
+      "brothel-owner": {
+        "judge_confidence": 65.0,
+        "judge_ngrams": "[\"\\\"brothel-owner\\\" - I'll think of \\\"madam\\\"\", \"always \\\"MADAM\\\"\"]",
+        "is_chosen": 0
+      },
+      "spotted": {
+        "judge_confidence": 50.0,
+        "judge_ngrams": "[\"is the wordplay\", \"a synonym\", \"consider its synonyms\"]",
+        "is_chosen": 0
+      }
+    }
+  },
+  "VP|Claude Sonnet 4.6|779|un_augmented": {
+    "chosen_conf": 55.0,
+    "candidates": {
+      "A": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      },
+      "B": {
+        "judge_confidence": 55.0,
+        "judge_ngrams": "[\"maybe the answer is option (b)\", \"solid diamond without the line\"]",
+        "is_chosen": 1
+      },
+      "C": {
+        "judge_confidence": 75.0,
+        "judge_ngrams": "[\"makes option (c) seem more logical\", \"as the parallel\"]",
+        "is_chosen": 0
+      },
+      "D": {
+        "judge_confidence": null,
+        "judge_ngrams": "[]",
+        "is_chosen": 0
+      }
+    }
+  }
+}

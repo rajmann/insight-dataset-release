@@ -1,0 +1,815 @@
+{
+  "meta": {
+    "model": "deepseek/deepseek-chat",
+    "n_traces": 75
+  },
+  "results": {
+    "VP|Claude Opus 4.6|89|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 65,
+        "C": null,
+        "D": 70
+      }
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_064|un_augmented": {
+      "scores": {
+        "slowdown": 40,
+        "laziness as the answer": 75,
+        "sluggishness at work": 60,
+        "at work": 50
+      }
+    },
+    "Rebus|Gemini 3 Flash|11_6|un_augmented": {
+      "scores": {
+        "backhand": 80,
+        "backseat": 20,
+        "handicap": 20,
+        "behind your back": 30,
+        "backhanded": 40,
+        "offhand": 30,
+        "backhanded compliment": 30,
+        "hindsight": 40,
+        "underhanded": 20,
+        "behind one's back": 20
+      }
+    },
+    "Rebus|GPT-5|5_3|un_augmented": {
+      "scores": {
+        "touch down": 61,
+        "staying in touch": 40,
+        "in touch": 50,
+        "out of touch": 30,
+        "t o u c h": null,
+        "touchdown": 90,
+        "down": null,
+        "touch": null
+      }
+    },
+    "VP|Gemini 2.5 Pro|238|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 85,
+        "C": 15,
+        "D": 55
+      }
+    },
+    "Rebus|Claude Opus 4.6|11_1|un_augmented": {
+      "scores": {
+        "teacher with no class": 61,
+        "teacher": null,
+        "top of the class": 81,
+        "teach": 41,
+        "her": null,
+        "teac": 21
+      }
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_070|un_augmented": {
+      "scores": {
+        "for execution": null,
+        "execution": 55,
+        "toxicant": 70,
+        "for poison": null,
+        "not the first to be carried out": 40,
+        "poison": 65,
+        "operation": 60,
+        "to be carried out": 50,
+        "carried out": 45,
+        "not the first": 35
+      }
+    },
+    "VP|Gemini 2.5 Pro|800|un_augmented": {
+      "scores": {
+        "A": 21,
+        "B": 21,
+        "C": 41,
+        "D": 81
+      }
+    },
+    "Rebus|Gemini 3 Flash|20_8|un_augmented": {
+      "scores": {
+        "der": null,
+        "thunder": 90,
+        "under": 25,
+        "ten": null,
+        "ten-der": 60,
+        "rebus": null,
+        "10 der": 70,
+        "tender": 50,
+        "rebus der ten times": null,
+        "ten der": 70
+      }
+    },
+    "Cryptic|Claude Opus 4.6|cc_076|un_augmented": {
+      "scores": {
+        "egomania": 95,
+        "rising reputation": 50,
+        "shows self-centredness": 70,
+        "admit": null,
+        "start to admit": 65,
+        "reputation": 45,
+        "to spike": 40,
+        "attempt": 45,
+        "8 letters and means": 80
+      }
+    },
+    "VP|Qwen3-VL-235B Thinking|438|un_augmented": {
+      "scores": {
+        "A": 30,
+        "B": 30,
+        "C": 95,
+        "D": 10
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_085|un_augmented": {
+      "scores": {
+        "every second of the day": 40,
+        "oaf": 85,
+        "of the day": 35,
+        "clumsy": 80,
+        "every second": 30,
+        "am": 20,
+        "i'm": 25,
+        "day": 30,
+        "second": 20,
+        "of": 20
+      }
+    },
+    "Cryptic|GPT-5|cc_084|un_augmented": {
+      "scores": {
+        "delhi": 40,
+        "food bar's hot inside": 30,
+        "pub": 20
+      }
+    },
+    "VP|Gemini 2.5 Pro|817|un_augmented": {
+      "scores": {
+        "A": 70,
+        "B": 30,
+        "C": 20,
+        "D": 40
+      }
+    },
+    "Rebus|Gemini 2.5 Pro|2_4|un_augmented": {
+      "scores": {
+        "vice": 60,
+        "advice": 40,
+        "vis-a-vis": 80,
+        "vice-president": 30,
+        "ad": 20
+      }
+    },
+    "VP|GPT-5|1171|un_augmented": {
+      "scores": {
+        "A": 21,
+        "B": 81,
+        "C": 21,
+        "D": null
+      }
+    },
+    "Rebus|Qwen3-VL-235B Thinking|15_8|un_augmented": {
+      "scores": {
+        "abo blood type": 40,
+        "writing blood types": 30,
+        "abo": 35,
+        "blood type": 70
+      }
+    },
+    "Rebus|Claude Sonnet 4.6|12_4|un_augmented": {
+      "scores": {
+        "tour": 61,
+        "two r": 41,
+        "rare": 41,
+        "arrest": 61,
+        "r&r": 81,
+        "rest and relaxation": 81,
+        "rest": 41,
+        "rr": 41,
+        "are": 61,
+        "ar": 41
+      }
+    },
+    "VP|Gemini 3 Flash|377|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 90,
+        "C": 20,
+        "D": 20
+      }
+    },
+    "Rebus|Gemini 3 Pro|11_1|un_augmented": {
+      "scores": {
+        "teac": 40,
+        "up": 60,
+        "teacup": 90,
+        "high teac": 20,
+        "teac up": 70,
+        "high tech": 50,
+        "teach": null,
+        "tech": null,
+        "teac top": 20
+      }
+    },
+    "Cryptic|Claude Opus 4.6|cc_049|un_augmented": {
+      "scores": {
+        "kings coming from the east": 40,
+        "rexes": 50,
+        "shahs": 60,
+        "kings": 30,
+        "coming from the west or from the east": 50,
+        "the west or from the east": 50,
+        "from the east": 40,
+        "coming from the west": 40,
+        "or": 30,
+        "ro": 30
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_044|un_augmented": {
+      "scores": {
+        "unusual": 50,
+        "characters in rare use": 65,
+        "obliteration": 80,
+        "erasure": 90,
+        "characters in": 40,
+        "in rare use": 60,
+        "rare use": 70,
+        "characters": 50,
+        "use": 60,
+        "rare": 70
+      }
+    },
+    "VP|Qwen3-VL-235B Thinking|972|un_augmented": {
+      "scores": {
+        "A": 81,
+        "B": 20,
+        "C": 20,
+        "D": 30
+      }
+    },
+    "Cryptic|Gemini 3 Flash|cc_020|un_augmented": {
+      "scores": {
+        "arden": 81,
+        "rdent": null,
+        "ardent": 61,
+        "almost": 41,
+        "shakespearean scene": 61,
+        "one shakespearean scene": 71,
+        "one": 21,
+        "one enthusiastic": 41,
+        "enthusiastic": 41,
+        "asset": 20
+      }
+    },
+    "VP|Claude Sonnet 4.6|1116|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null,
+        "gibbon": 81
+      }
+    },
+    "Rebus|Gemini 2.5 Pro|19_10|un_augmented": {
+      "scores": {
+        "w in seaweed": 41,
+        "lost in the weeds": 81,
+        "eed": 61,
+        "w with seaweed": 41,
+        "seaweed": 41
+      }
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_049|un_augmented": {
+      "scores": {
+        "west or east": 61,
+        "rajas": 30,
+        "raja": 30,
+        "kings": 50,
+        "or": 40
+      }
+    },
+    "Rebus|Claude Opus 4.6|23_7|un_augmented": {
+      "scores": {
+        "hard core": 10,
+        "fruit": 30,
+        "corridor": 75,
+        "core road": 10,
+        "apple road": 10,
+        "the road to the core": 40,
+        "hardcore": 35,
+        "core": 60,
+        "road": 60
+      }
+    },
+    "Rebus|Gemini 3 Flash|puzzle128.gif|un_augmented": {
+      "scores": {
+        "close": 61,
+        "close encounters": 81
+      }
+    },
+    "VP|Claude Sonnet 4.6|701|un_augmented": {
+      "scores": {
+        "A": 70,
+        "B": 30,
+        "C": 20,
+        "D": 40
+      }
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_063|un_augmented": {
+      "scores": {
+        "alert broadcast about mp": 41,
+        "templar": 81,
+        "alert broadcast": 41,
+        "about": 21,
+        "broadcast": 41,
+        "re": 21,
+        "alert": 61,
+        "barrister": 61,
+        "ca": 21,
+        "mp": 41
+      }
+    },
+    "VP|Claude Sonnet 4.6|188|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 80,
+        "D": null
+      }
+    },
+    "VP|Gemini 2.5 Pro|719|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 30,
+        "C": 10,
+        "D": 90
+      }
+    },
+    "Rebus|Claude Opus 4.6|18_2|un_augmented": {
+      "scores": {
+        "in-tegr-eight": 81,
+        "teightgr": 20,
+        "teategr": 30,
+        "eight": 60,
+        "te8gr": 50,
+        "integrate": 90,
+        "tegr": 40,
+        "ate": 50,
+        "gr": null,
+        "te": null
+      }
+    },
+    "Cryptic|Gemini 3 Flash|cc_068|un_augmented": {
+      "scores": {
+        "road tests": 95,
+        "started so": 30,
+        "trials": 70,
+        "mock trials": 20,
+        "jury trials": 20,
+        "soft cases": 20,
+        "hard times": 20,
+        "t e s t c a s e s": null,
+        "test cases": 40,
+        "badly": 60
+      }
+    },
+    "VP|Gemini 2.5 Pro|52|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 20,
+        "C": 60,
+        "D": 80
+      }
+    },
+    "Rebus|Qwen3-VL-235B Thinking|18_2|un_augmented": {
+      "scores": {
+        "teater": 30,
+        "tea for": 25,
+        "te8gr": null,
+        "t e 8 g r": null,
+        "teeter": 20,
+        "teategr": 15,
+        "gr": null,
+        "text": 35,
+        "ate": null,
+        "te": null
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_034|un_augmented": {
+      "scores": {
+        "met": 40,
+        "from east and west": 30,
+        "main roads": 60,
+        "converge": 70,
+        "roads": 50,
+        "main": 60,
+        "east": 70,
+        "end": 90,
+        "west": 70,
+        "and": 20
+      }
+    },
+    "Rebus|Claude Sonnet 4.6|puzzle133.gif|un_augmented": {
+      "scores": {
+        "13579 vs u": 20,
+        "odds against you": 80,
+        "odd numbers vs u": 60,
+        "the odds are against you": 70,
+        "odd numbers against you": 40
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_088|un_augmented": {
+      "scores": {
+        "boutique": 61,
+        "bloody": 30,
+        "outside": 50,
+        "dickensian": 25,
+        "slog": 20,
+        "bound": 40,
+        "tedious": 45,
+        "ian": 20,
+        "dickens": 35,
+        "dick": 25
+      }
+    },
+    "VP|Claude Sonnet 4.6|795|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 75,
+        "D": 65
+      }
+    },
+    "VP|Claude Sonnet 4.6|932|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 80,
+        "D": null
+      }
+    },
+    "Cryptic|Gemini 3 Pro|cc_059|un_augmented": {
+      "scores": {
+        "yak yak": 85,
+        "lengthy talk": 60,
+        "repeatedly": 40,
+        "chat chat": 30,
+        "wah wah": 25,
+        "yap yap": 35,
+        "gab gab": 35,
+        "seat that's flexible to the end": 20,
+        "to the end": 25,
+        "jaw jaw": 50
+      }
+    },
+    "Rebus|Claude Opus 4.6|puzzle110.gif|un_augmented": {
+      "scores": {
+        "head in sand": 81,
+        "head in the sand": 61,
+        "sand": 41,
+        "ahead and": 21,
+        "s h e a d a n d": 41,
+        "head and shoulders": 21,
+        "s head and": 41,
+        "head and": 61,
+        "head": 41,
+        "and": 41
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_052|un_augmented": {
+      "scores": {
+        "soda": 41,
+        "port": 21,
+        "ado": 21,
+        "fusses over drink": null,
+        "over drink": null,
+        "stir": 81,
+        "fusses": 41,
+        "drink": 41,
+        "over": 41,
+        "fuss": 21
+      }
+    },
+    "Rebus|Claude Opus 4.6|puzzle104.gif|un_augmented": {
+      "scores": {
+        "tax bracket": 81,
+        "bracket income tax": 41,
+        "gross income tax": 21,
+        "income tax in brackets": 41,
+        "gross": 21,
+        "in brackets": 40,
+        "income tax": 30
+      }
+    },
+    "VP|Gemini 3 Pro|878|un_augmented": {
+      "scores": {
+        "A": 85,
+        "B": 25,
+        "C": 15,
+        "D": 15
+      }
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_026|un_augmented": {
+      "scores": {
+        "per and tor on the outside": 61,
+        "percolator": 90,
+        "a soft drink": 50,
+        "soft-drink": 40,
+        "filter machine": 80,
+        "should contain": 70,
+        "each": 75,
+        "high spot": 70,
+        "soft drink": 65,
+        "col": 60
+      }
+    },
+    "VP|Claude Opus 4.6|568|un_augmented": {
+      "scores": {
+        "A": 61,
+        "B": null,
+        "C": 40,
+        "D": null
+      }
+    },
+    "Rebus|Qwen3-VL-235B Thinking|12_9|un_augmented": {
+      "scores": {
+        "difoodan rebus": null,
+        "difoodan": null,
+        "food": 41,
+        "an": 41,
+        "dinner": 15,
+        "di": 41
+      }
+    },
+    "Rebus|Gemini 3 Flash|16_11|un_augmented": {
+      "scores": {
+        "ha": 40,
+        "nd": 40,
+        "hand": 60,
+        "hand in hand": 90,
+        "hahandnd": null
+      }
+    },
+    "VP|Claude Sonnet 4.6|628|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": 65
+      }
+    },
+    "Cryptic|Gemini 3 Flash|cc_095|un_augmented": {
+      "scores": {
+        "clinical": 41,
+        "explicit": 45,
+        "cuts": 30,
+        "sort of knife": 35,
+        "left": 30,
+        "cut": 30,
+        "sort of": 35,
+        "sort": 35,
+        "precise": 61,
+        "knife": 40
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_053|un_augmented": {
+      "scores": {
+        "call by": 50,
+        "call in": 70,
+        "visit": 60,
+        "out for me": 20,
+        "that's right": 30,
+        "for me": 20,
+        "corby": 40,
+        "out": 30,
+        "me": 20,
+        "in": 50
+      }
+    },
+    "VP|Gemini 3 Pro|994|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 80,
+        "C": 10,
+        "D": 20
+      }
+    },
+    "Rebus|Claude Sonnet 4.6|18_2|un_augmented": {
+      "scores": {
+        "tiger": 20,
+        "te8gr": null,
+        "integrate": 85,
+        "eight": 40,
+        "integra": 30,
+        "ight": 30,
+        "ate": 60,
+        "gr": 50,
+        "te": 50,
+        "in": 40
+      }
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_060|un_augmented": {
+      "scores": {
+        "erasure": 81,
+        "an area": 41,
+        "of course": 61,
+        "by age": 40,
+        "erased": 41,
+        "that's": null,
+        "an area that's rubbed out": null,
+        "rubbed out": 41,
+        "naturally": 21,
+        "rubbed out by age": null
+      }
+    },
+    "Rebus|Gemini 2.5 Pro|13_12|un_augmented": {
+      "scores": {
+        "fortunate": 90,
+        "four-tuna-eight": 40
+      }
+    },
+    "VP|Gemini 3 Pro|817|un_augmented": {
+      "scores": {
+        "A": 21,
+        "B": 20,
+        "C": 20,
+        "D": 95
+      }
+    },
+    "Rebus|Qwen3-VL-235B Thinking|23_7|un_augmented": {
+      "scores": {
+        "core road": 20,
+        "coreway": 30,
+        "route": 20,
+        "core way": 40,
+        "core highway": 70,
+        "core high": 20,
+        "highway": 30,
+        "high": 20,
+        "way": 40,
+        "core": 50
+      }
+    },
+    "VP|Claude Sonnet 4.6|1113|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 30,
+        "C": null,
+        "D": 80
+      }
+    },
+    "Cryptic|GPT-5|cc_089|un_augmented": {
+      "scores": {
+        "ozark": 70,
+        "ttin": 20,
+        "us city": 50,
+        "austin": 60,
+        "aust": 45,
+        "aussie": 40,
+        "start to travel": 30,
+        "can": 30,
+        "aus": 40,
+        "tin": 35
+      }
+    },
+    "Cryptic|Gemini 3 Flash|cc_053|un_augmented": {
+      "scores": {
+        "me": 80,
+        "for": 40,
+        "come by": 100,
+        "right out": 60,
+        "corby": 70,
+        "right": 60,
+        "visit": 80,
+        "call in": 20,
+        "out": 50,
+        "coby": 70
+      }
+    },
+    "Rebus|Qwen3-VL-235B Thinking|p47|un_augmented": {
+      "scores": {
+        "crystal blue": 80,
+        "crystal": 40
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_029|un_augmented": {
+      "scores": {
+        "aloha": 30,
+        "hello": 60,
+        "main": 40,
+        "covers": null,
+        "greeting": null,
+        "small island": null,
+        "part of large one": null,
+        "small": null,
+        "one": null,
+        "large": null
+      }
+    },
+    "VP|Qwen3-VL-235B Thinking|570|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 30,
+        "C": 35,
+        "D": 65
+      }
+    },
+    "VP|Gemini 3 Flash|932|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 20,
+        "C": 80,
+        "D": 20
+      }
+    },
+    "Rebus|Claude Opus 4.6|24_5|un_augmented": {
+      "scores": {
+        "sit around": 30,
+        "turn right": 40,
+        "recline": 30,
+        "that's right": 20,
+        "seat right": 20,
+        "come": 40,
+        "sit right": 20,
+        "sitcom": 75,
+        "back": 40,
+        "re": 30
+      }
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_079|un_augmented": {
+      "scores": {
+        "a set": 21,
+        "tone": 40,
+        "aset": 21,
+        "seat": 20,
+        "a piece of stage scenery": 80,
+        "flat": 90,
+        "a piece of": 30,
+        "stage": 40,
+        "set": 70,
+        "note": 60
+      }
+    },
+    "Rebus|Gemini 2.5 Pro|puzzle110.gif|un_augmented": {
+      "scores": {
+        "and": 40,
+        "sand": 70,
+        "head": 80,
+        "head in the sand": 95,
+        "s-and": 60,
+        "sheadand": 30,
+        "s h e a d a n d": 20,
+        "she head and": 30,
+        "s head and": 30,
+        "she ad and": 20
+      }
+    },
+    "VP|Gemini 3 Flash|188|un_augmented": {
+      "scores": {
+        "A": 20,
+        "B": 20,
+        "C": 95,
+        "D": 20
+      }
+    },
+    "Cryptic|Claude Opus 4.6|cc_044|un_augmented": {
+      "scores": {
+        "erasure": 81,
+        "obliteration of characters in rare use": 41,
+        "obliteration": 61,
+        "of": 41,
+        "obliteration of": 41,
+        "characters in rare use": 61,
+        "rare use": 41
+      }
+    },
+    "VP|Claude Sonnet 4.6|779|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 60,
+        "C": 70,
+        "D": null
+      }
+    },
+    "Rebus|GPT-5|p30|un_augmented": {
+      "scores": {
+        "bird's eye view": 40,
+        "bird's-eye view": 85,
+        "view": null
+      }
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_046|un_augmented": {
+      "scores": {
+        "scowled": 21,
+        "flawed": 41,
+        "seen": 41,
+        "glower after brothel-owner spotted": 61,
+        "after": 41,
+        "glower": 81,
+        "madam": 61,
+        "brothel-owner spotted": 41,
+        "brothel-owner": 41,
+        "spotted": 41
+      }
+    }
+  }
+}

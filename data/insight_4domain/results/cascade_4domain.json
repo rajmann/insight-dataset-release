@@ -1,0 +1,368 @@
+{
+  "n_boot": 2000,
+  "seed": 42,
+  "stage1": "Gemini 3 Flash",
+  "stage2": "Gemini 3 Pro",
+  "cost_per_call": {
+    "Gemini 3 Flash": 0.0008,
+    "Gemini 3 Pro": 0.0339
+  },
+  "domains": {
+    "Rebus": {
+      "n": 100,
+      "solo_flash": {
+        "accuracy": {
+          "point": 0.8,
+          "ci": [
+            0.73,
+            0.88
+          ]
+        },
+        "cost": 0.0008
+      },
+      "solo_pro": {
+        "accuracy": {
+          "point": 0.81,
+          "ci": [
+            0.73,
+            0.89
+          ]
+        },
+        "cost": 0.0339
+      },
+      "operating_points": [
+        {
+          "label": "best_acc",
+          "escalation_rate": 0.7000000000000001,
+          "classifier": {
+            "accuracy": {
+              "point": 0.84,
+              "ci": [
+                0.76,
+                0.9
+              ]
+            },
+            "cost": 0.024529999999999996,
+            "cost_saving_vs_solo_pro_pct": 27.640117994100304
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.79,
+              "ci": [
+                0.71,
+                0.87
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.039999999999999925,
+            "ci": [
+              -0.010000000000000009,
+              0.09000000000000008
+            ],
+            "significant": false
+          }
+        },
+        {
+          "label": "match_solo_pro",
+          "escalation_rate": 0.04,
+          "classifier": {
+            "accuracy": {
+              "point": 0.81,
+              "ci": [
+                0.73,
+                0.89
+              ]
+            },
+            "cost": 0.002156,
+            "cost_saving_vs_solo_pro_pct": 93.64011799410031
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.8,
+              "ci": [
+                0.73,
+                0.88
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.010000000000000009,
+            "ci": [
+              0.0,
+              0.030000000000000027
+            ],
+            "significant": false
+          }
+        }
+      ]
+    },
+    "Cryptic": {
+      "n": 100,
+      "solo_flash": {
+        "accuracy": {
+          "point": 0.75,
+          "ci": [
+            0.66,
+            0.84
+          ]
+        },
+        "cost": 0.0008
+      },
+      "solo_pro": {
+        "accuracy": {
+          "point": 0.87,
+          "ci": [
+            0.8,
+            0.94
+          ]
+        },
+        "cost": 0.0339
+      },
+      "operating_points": [
+        {
+          "label": "best_acc",
+          "escalation_rate": 0.6000000000000001,
+          "classifier": {
+            "accuracy": {
+              "point": 0.87,
+              "ci": [
+                0.79,
+                0.94
+              ]
+            },
+            "cost": 0.02114,
+            "cost_saving_vs_solo_pro_pct": 37.640117994100294
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.82,
+              "ci": [
+                0.75,
+                0.9
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.040000000000000036,
+            "ci": [
+              0.0,
+              0.08999999999999997
+            ],
+            "significant": false
+          }
+        },
+        {
+          "label": "match_solo_pro",
+          "escalation_rate": 0.56,
+          "classifier": {
+            "accuracy": {
+              "point": 0.87,
+              "ci": [
+                0.78,
+                0.93
+              ]
+            },
+            "cost": 0.019784,
+            "cost_saving_vs_solo_pro_pct": 41.640117994100294
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.83,
+              "ci": [
+                0.74,
+                0.8902499999999987
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.040000000000000036,
+            "ci": [
+              0.0,
+              0.09000000000000008
+            ],
+            "significant": false
+          }
+        }
+      ]
+    },
+    "VP": {
+      "n": 100,
+      "solo_flash": {
+        "accuracy": {
+          "point": 0.88,
+          "ci": [
+            0.81,
+            0.94
+          ]
+        },
+        "cost": 0.0008
+      },
+      "solo_pro": {
+        "accuracy": {
+          "point": 0.85,
+          "ci": [
+            0.78,
+            0.91
+          ]
+        },
+        "cost": 0.0339
+      },
+      "operating_points": [
+        {
+          "label": "best_acc",
+          "escalation_rate": 0.05,
+          "classifier": {
+            "accuracy": {
+              "point": 0.9,
+              "ci": [
+                0.82,
+                0.95
+              ]
+            },
+            "cost": 0.0024950000000000003,
+            "cost_saving_vs_solo_pro_pct": 92.64011799410031
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.88,
+              "ci": [
+                0.81,
+                0.94
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.010000000000000009,
+            "ci": [
+              -0.019999999999999907,
+              0.039999999999999925
+            ],
+            "significant": false
+          }
+        },
+        {
+          "label": "match_solo_pro",
+          "escalation_rate": 0.0,
+          "classifier": {
+            "accuracy": {
+              "point": 0.88,
+              "ci": [
+                0.81,
+                0.94
+              ]
+            },
+            "cost": 0.0008,
+            "cost_saving_vs_solo_pro_pct": 97.64011799410028
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.88,
+              "ci": [
+                0.81,
+                0.94
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.0,
+            "ci": [
+              0.0,
+              0.0
+            ],
+            "significant": false
+          }
+        }
+      ]
+    },
+    "ConnectionsPlus": {
+      "n": 100,
+      "solo_flash": {
+        "accuracy": {
+          "point": 0.77,
+          "ci": [
+            0.68,
+            0.85
+          ]
+        },
+        "cost": 0.0008
+      },
+      "solo_pro": {
+        "accuracy": {
+          "point": 0.95,
+          "ci": [
+            0.9,
+            0.99
+          ]
+        },
+        "cost": 0.0339
+      },
+      "operating_points": [
+        {
+          "label": "best_acc",
+          "escalation_rate": 0.9500000000000001,
+          "classifier": {
+            "accuracy": {
+              "point": 0.95,
+              "ci": [
+                0.9,
+                0.99
+              ]
+            },
+            "cost": 0.033005,
+            "cost_saving_vs_solo_pro_pct": 2.640117994100295
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.94,
+              "ci": [
+                0.89,
+                0.98
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.010000000000000009,
+            "ci": [
+              -0.010000000000000009,
+              0.030000000000000027
+            ],
+            "significant": false
+          }
+        },
+        {
+          "label": "match_solo_pro",
+          "escalation_rate": 0.92,
+          "classifier": {
+            "accuracy": {
+              "point": 0.95,
+              "ci": [
+                0.9,
+                0.99
+              ]
+            },
+            "cost": 0.031988,
+            "cost_saving_vs_solo_pro_pct": 5.640117994100287
+          },
+          "random_at_same_rate": {
+            "accuracy": {
+              "point": 0.93,
+              "ci": [
+                0.87,
+                0.98
+              ]
+            }
+          },
+          "paired_delta_classifier_minus_random": {
+            "median": 0.019999999999999907,
+            "ci": [
+              -0.010000000000000009,
+              0.04999999999999993
+            ],
+            "significant": false
+          }
+        }
+      ]
+    }
+  }
+}

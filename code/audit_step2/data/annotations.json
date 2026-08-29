@@ -1,0 +1,1502 @@
+{
+  "Rebus|Gemini 3 Flash|11_6|un_augmented": {
+    "scores": {
+      "behind one's back": 0,
+      "hindsight": 0,
+      "offhand": 21,
+      "backhanded": 30,
+      "behind your back": 0,
+      "underhanded": 0,
+      "backhand": 95,
+      "backseat": 0,
+      "backhanded compliment": 20,
+      "handicap": 10
+    },
+    "ngrams": {
+      "behind one's back": [
+        "-dismissing"
+      ],
+      "hindsight": [
+        "-Not quite No"
+      ],
+      "backhanded": [
+        "-No not"
+      ],
+      "behind your back": [
+        "-not right No"
+      ],
+      "underhanded": [
+        "-dismissing"
+      ],
+      "backhand": [
+        "+is found it Yes"
+      ],
+      "backseat": [
+        "-No"
+      ],
+      "handicap": [
+        "-No"
+      ]
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_064|un_augmented": {
+    "scores": {
+      "laziness as the answer": 80,
+      "slowdown": 60
+    },
+    "ngrams": {
+      "laziness as the answer": [
+        "+leaning toward considering"
+      ],
+      "slowdown": [
+        "+fits—it's"
+      ]
+    },
+    "flags": {
+      "sluggishness at work": true,
+      "at work": true
+    }
+  },
+  "VP|Claude Opus 4.6|89|un_augmented": {
+    "scores": {
+      "B": 60,
+      "D": 50,
+      "C": 0,
+      "A": 0
+    },
+    "ngrams": {
+      "B": [
+        "+strong possibility"
+      ],
+      "D": [
+        "+answer would be"
+      ]
+    }
+  },
+  "Rebus|GPT-5|5_3|un_augmented": {
+    "scores": {
+      "staying in touch": 20,
+      "down": 10,
+      "in touch": 20,
+      "touchdown": 95,
+      "out of touch": 20,
+      "t o u c h": 0,
+      "touch down": 40
+    },
+    "ngrams": {
+      "touchdown": [
+        "+ANSWER feels right suggests confidently go with"
+      ],
+      "out of touch": [
+        "-However could"
+      ]
+    },
+    "flags": {
+      "touch": true
+    }
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_070|un_augmented": {
+    "scores": {
+      "execution": 50,
+      "toxicant": 40,
+      "for execution": 0
+    },
+    "ngrams": {
+      "toxicant": [
+        "+What about"
+      ],
+      "execution": [
+        "+clued"
+      ]
+    },
+    "flags": {
+      "to be carried out": true,
+      "operation": true,
+      "not the first": true,
+      "carried out": true,
+      "for poison": true,
+      "not the first to be carried out": true,
+      "poison": true
+    }
+  },
+  "VP|Gemini 2.5 Pro|238|un_augmented": {
+    "scores": {
+      "A": 20,
+      "B": 95,
+      "C": 0,
+      "D": 10
+    },
+    "ngrams": {}
+  },
+  "Rebus|Claude Opus 4.6|11_1|un_augmented": {
+    "scores": {
+      "teach": 30,
+      "top of the class": 50,
+      "teac": 20,
+      "her": 10,
+      "teacher with no class": 25,
+      "teacher": 40
+    },
+    "ngrams": {
+      "teacher": [
+        "+could be"
+      ]
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_085|un_augmented": {
+    "scores": {
+      "oaf": 90,
+      "am": 0
+    },
+    "ngrams": {
+      "oaf": [
+        "+common likely answer go with",
+        "-not"
+      ]
+    },
+    "flags": {
+      "day": true,
+      "second": true,
+      "every second of the day": true,
+      "clumsy": true,
+      "of": true,
+      "every second": true,
+      "of the day": true,
+      "i'm": true
+    }
+  },
+  "VP|Gemini 2.5 Pro|800|un_augmented": {
+    "scores": {
+      "D": 70,
+      "C": 30,
+      "B": 20,
+      "A": 25
+    },
+    "ngrams": {
+      "D": [
+        "+logical answer"
+      ],
+      "B": [
+        "-lack"
+      ],
+      "A": [
+        "+might"
+      ]
+    }
+  },
+  "Rebus|Gemini 3 Flash|20_8|un_augmented": {
+    "scores": {
+      "tender": 70,
+      "ten der": 30,
+      "under": 5,
+      "10 der": 20,
+      "ten": 20,
+      "rebus": 0,
+      "der": 0,
+      "thunder": 85,
+      "rebus der ten times": 0,
+      "ten-der": 40
+    },
+    "ngrams": {
+      "under": [
+        "-nor false"
+      ],
+      "thunder": [
+        "+Yes it is clever"
+      ]
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_076|un_augmented": {
+    "scores": {
+      "egomania": 100,
+      "8 letters and means": 0
+    },
+    "ngrams": {
+      "egomania": [
+        "+fits perfectly complete"
+      ]
+    },
+    "flags": {
+      "attempt": true,
+      "rising reputation": true,
+      "to spike": true,
+      "admit": true,
+      "start to admit": true,
+      "reputation": true,
+      "shows self-centredness": true
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|438|un_augmented": {
+    "scores": {
+      "D": 0,
+      "C": 95,
+      "A": 0,
+      "B": 0
+    },
+    "ngrams": {
+      "C": [
+        "+is correct should be only one perfectly"
+      ],
+      "B": [
+        "-not"
+      ],
+      "A": [
+        "-not"
+      ]
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|2_4|un_augmented": {
+    "scores": {
+      "vis-a-vis": 80,
+      "vice": 0,
+      "vice-president": 5,
+      "ad": 0,
+      "advice": 20
+    },
+    "ngrams": {
+      "vis-a-vis": [
+        "+all clicked"
+      ],
+      "vice-president": [
+        "-couldn't"
+      ],
+      "advice": [
+        "-couldn't make"
+      ]
+    },
+    "flags": {
+      "vice": true
+    }
+  },
+  "Cryptic|GPT-5|cc_084|un_augmented": {
+    "scores": {
+      "pub": 10,
+      "delhi": 10
+    },
+    "ngrams": {},
+    "flags": {
+      "food bar's hot inside": true
+    }
+  },
+  "VP|Gemini 2.5 Pro|817|un_augmented": {
+    "scores": {
+      "A": 95,
+      "C": 0,
+      "B": 0,
+      "D": 0
+    },
+    "ngrams": {}
+  },
+  "Rebus|Claude Sonnet 4.6|12_4|un_augmented": {
+    "scores": {
+      "rr": 0,
+      "two r": 0,
+      "r&r": 0,
+      "are": 20,
+      "tour": 0,
+      "rest and relaxation": 10,
+      "arrest": 60,
+      "rest": 30,
+      "ar": 0,
+      "rare": 30
+    },
+    "ngrams": {
+      "rr": [
+        "-unlikely"
+      ],
+      "tour": [
+        "-doesn't"
+      ],
+      "are": [
+        "+could be"
+      ],
+      "rest": [
+        "+myself—maybe"
+      ],
+      "rare": [
+        "+gives"
+      ]
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_049|un_augmented": {
+    "scores": {
+      "ro": 0,
+      "shahs": 95,
+      "rexes": 0,
+      "or": 0
+    },
+    "ngrams": {
+      "shahs": [
+        "+jumps out possibility"
+      ]
+    },
+    "flags": {
+      "the west or from the east": true,
+      "coming from the west": true,
+      "coming from the west or from the east": true,
+      "kings coming from the east": true,
+      "from the east": true,
+      "kings": true
+    }
+  },
+  "VP|GPT-5|1171|un_augmented": {
+    "scores": {
+      "D": 0,
+      "A": 0,
+      "C": 0,
+      "B": 95
+    },
+    "ngrams": {
+      "B": [
+        "+leads me ANSWER"
+      ]
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|15_8|un_augmented": {
+    "scores": {
+      "abo": 40,
+      "abo blood type": 10,
+      "writing blood types": 10,
+      "blood type": 90
+    },
+    "ngrams": {
+      "abo": [
+        "+maybe"
+      ],
+      "abo blood type": [
+        "-no"
+      ],
+      "writing blood types": [
+        "-No"
+      ],
+      "blood type": [
+        "+answer is phrase is"
+      ]
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_044|un_augmented": {
+    "scores": {
+      "unusual": 50,
+      "erasure": 99
+    },
+    "ngrams": {
+      "erasure": [
+        "+Yes Yes Yes gives answer"
+      ]
+    },
+    "flags": {
+      "characters in": true,
+      "characters in rare use": true,
+      "rare": true,
+      "in rare use": true,
+      "rare use": true,
+      "obliteration": true,
+      "use": true,
+      "characters": true
+    }
+  },
+  "VP|Gemini 3 Flash|377|un_augmented": {
+    "scores": {
+      "D": 20,
+      "B": 20,
+      "A": 90,
+      "C": 20
+    },
+    "ngrams": {
+      "A": [
+        "+answer coherent"
+      ]
+    }
+  },
+  "Rebus|Gemini 3 Pro|11_1|un_augmented": {
+    "scores": {
+      "teac top": 5,
+      "tech": 5,
+      "teac": 5,
+      "teac up": 70,
+      "teach": 20,
+      "up": 20,
+      "high teac": 20,
+      "teacup": 85,
+      "high tech": 40
+    },
+    "ngrams": {
+      "teac top": [
+        "-No"
+      ],
+      "teac up": [
+        "+word Yes",
+        "-Nope"
+      ],
+      "high teac": [
+        "-less"
+      ],
+      "teacup": [
+        "+answer better"
+      ],
+      "high tech": [
+        "+Possible"
+      ]
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_020|un_augmented": {
+    "scores": {
+      "one shakespearean scene": 0,
+      "arden": 99,
+      "rdent": 0,
+      "asset": 0,
+      "one": 0,
+      "ardent": 30,
+      "shakespearean scene": 10
+    },
+    "ngrams": {
+      "arden": [
+        "+clear means wordplay"
+      ],
+      "asset": [
+        "-doesn't quite fit"
+      ],
+      "ardent": [
+        "-almost"
+      ],
+      "shakespearean scene": [
+        "-definition"
+      ]
+    },
+    "flags": {
+      "one enthusiastic": true,
+      "enthusiastic": true,
+      "almost": true,
+      "shakespearean scene": true,
+      "one": true
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|972|un_augmented": {
+    "scores": {
+      "D": 5,
+      "A": 99,
+      "C": 0,
+      "B": 5
+    },
+    "ngrams": {
+      "D": [
+        "-no"
+      ],
+      "A": [
+        "+confident only correct fits probably exactly"
+      ],
+      "C": [
+        "-not"
+      ]
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|19_10|un_augmented": {
+    "scores": {
+      "w in seaweed": 10,
+      "seaweed": 10,
+      "w with seaweed": 10,
+      "lost in the weeds": 70,
+      "eed": 0
+    },
+    "ngrams": {}
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_049|un_augmented": {
+    "scores": {
+      "raja": 20,
+      "rajas": 20
+    },
+    "ngrams": {
+      "raja": [
+        "-don't seem right"
+      ],
+      "rajas": [
+        "-not don't seem right"
+      ]
+    },
+    "flags": {
+      "kings": true,
+      "west or east": true,
+      "or": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|1116|un_augmented": {
+    "scores": {
+      "D": 0,
+      "B": 0,
+      "C": 0,
+      "A": 10
+    },
+    "ngrams": {}
+  },
+  "Rebus|Claude Opus 4.6|23_7|un_augmented": {
+    "scores": {
+      "hardcore": 30,
+      "hard core": 5,
+      "apple road": 5,
+      "road": 20,
+      "corridor": 40,
+      "fruit": 20,
+      "core road": 10,
+      "core": 10,
+      "the road to the core": 20
+    },
+    "ngrams": {
+      "hardcore": [
+        "+Maybe"
+      ],
+      "hard core": [
+        "-no"
+      ],
+      "apple road": [
+        "-no"
+      ],
+      "core road": [
+        "-no"
+      ],
+      "corridor": [
+        "+feels like strongest"
+      ],
+      "the road to the core": [
+        "+could"
+      ]
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_063|un_augmented": {
+    "scores": {
+      "templar": 60,
+      "ca": 5,
+      "re": 5
+    },
+    "ngrams": {},
+    "flags": {
+      "alert broadcast about mp": true,
+      "broadcast": true,
+      "about": true,
+      "mp": true,
+      "alert broadcast": true,
+      "alert": true,
+      "barrister": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|701|un_augmented": {
+    "scores": {
+      "A": 80,
+      "C": 0,
+      "D": 0,
+      "B": 0
+    },
+    "ngrams": {
+      "A": [
+        "+answer"
+      ]
+    }
+  },
+  "Rebus|Gemini 3 Flash|puzzle128.gif|un_augmented": {
+    "scores": {
+      "close encounters": 90,
+      "close": 50
+    },
+    "ngrams": {
+      "close encounters": [
+        "+automatically completes common"
+      ],
+      "close": [
+        "+screaming"
+      ]
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_034|un_augmented": {
+    "scores": {
+      "met": 0,
+      "end": 80
+    },
+    "ngrams": {
+      "end": [
+        "+answer is"
+      ]
+    },
+    "flags": {
+      "main roads": true,
+      "roads": true,
+      "converge": true,
+      "from east and west": true,
+      "main": true,
+      "west": true,
+      "east": true,
+      "and": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|188|un_augmented": {
+    "scores": {
+      "C": 70,
+      "D": 0,
+      "B": 0,
+      "A": 5
+    },
+    "ngrams": {}
+  },
+  "Rebus|Claude Opus 4.6|18_2|un_augmented": {
+    "scores": {
+      "te8gr": 10,
+      "gr": 5,
+      "teightgr": 5,
+      "in-tegr-eight": 50,
+      "ate": 10,
+      "teategr": 10,
+      "tegr": 5,
+      "eight": 10,
+      "te": 0,
+      "integrate": 99
+    },
+    "ngrams": {
+      "in-tegr-eight": [
+        "+gives"
+      ]
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_068|un_augmented": {
+    "scores": {
+      "road tests": 99,
+      "jury trials": 10,
+      "soft cases": 10,
+      "test cases": 10,
+      "hard times": 10,
+      "mock trials": 10,
+      "t e s t c a s e s": 5
+    },
+    "ngrams": {
+      "road tests": [
+        "+Yes Answer fits confident ANSWER"
+      ],
+      "t e s t c a s e s": [
+        "-don't"
+      ]
+    },
+    "flags": {
+      "trials": true,
+      "started so": true,
+      "badly": true
+    }
+  },
+  "VP|Gemini 2.5 Pro|719|un_augmented": {
+    "scores": {
+      "C": 0,
+      "D": 100,
+      "B": 0,
+      "A": 0
+    },
+    "ngrams": {
+      "D": [
+        "+undoubtedly solved",
+        "+Bingo"
+      ],
+      "C": [
+        "-out"
+      ],
+      "B": [
+        "-not"
+      ],
+      "A": [
+        "-Not out"
+      ]
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|18_2|un_augmented": {
+    "scores": {
+      "t e 8 g r": 0,
+      "text": 15,
+      "teater": 5,
+      "tea for": 5,
+      "teeter": 5,
+      "teategr": 0
+    },
+    "ngrams": {},
+    "flags": {
+      "te": true,
+      "gr": true,
+      "ate": true,
+      "te8gr": true
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_088|un_augmented": {
+    "scores": {
+      "boutique": 50,
+      "dick": 10,
+      "bloody": 10,
+      "outside": 10,
+      "ian": 10,
+      "dickens": 10
+    },
+    "ngrams": {
+      "boutique": [
+        "+Perhaps"
+      ]
+    },
+    "flags": {
+      "bound": true,
+      "tedious": true,
+      "slog": true,
+      "dickensian": true
+    }
+  },
+  "VP|Gemini 2.5 Pro|52|un_augmented": {
+    "scores": {
+      "C": 0,
+      "D": 0,
+      "B": 0,
+      "A": 0
+    },
+    "ngrams": {}
+  },
+  "Rebus|Claude Sonnet 4.6|puzzle133.gif|un_augmented": {
+    "scores": {
+      "odd numbers vs u": 5,
+      "the odds are against you": 80,
+      "odds against you": 80,
+      "odd numbers against you": 70
+    },
+    "ngrams": {
+      "odds against you": [
+        "+The phrase would be"
+      ]
+    },
+    "flags": {
+      "13579 vs u": true
+    }
+  },
+  "Cryptic|Gemini 3 Pro|cc_059|un_augmented": {
+    "scores": {
+      "jaw jaw": 0,
+      "yap yap": 5,
+      "yak yak": 75,
+      "wah wah": 5,
+      "chat chat": 5,
+      "gab gab": 5
+    },
+    "ngrams": {
+      "jaw jaw": [
+        "-Too"
+      ],
+      "yak yak": [
+        "-doesn't fit",
+        "+good fit",
+        "+makes sense",
+        "+most"
+      ]
+    },
+    "flags": {
+      "seat that's flexible to the end": true,
+      "repeatedly": true,
+      "lengthy talk": true,
+      "to the end": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|795|un_augmented": {
+    "scores": {
+      "C": 80,
+      "D": 30,
+      "A": 0,
+      "B": 0
+    },
+    "ngrams": {
+      "D": [
+        "+think"
+      ],
+      "C": [
+        "+think",
+        "+ANSWER most go with"
+      ]
+    }
+  },
+  "Rebus|Claude Opus 4.6|puzzle110.gif|un_augmented": {
+    "scores": {
+      "head and shoulders": 20,
+      "head in the sand": 80,
+      "head in sand": 70,
+      "head": 10,
+      "head and": 10,
+      "sand": 20,
+      "and": 0,
+      "s head and": 10,
+      "ahead and": 5
+    },
+    "ngrams": {
+      "head and shoulders": [
+        "-no"
+      ],
+      "head in the sand": [
+        "+that's"
+      ],
+      "ahead and": [
+        "-No"
+      ]
+    },
+    "flags": {
+      "s h e a d a n d": true
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_052|un_augmented": {
+    "scores": {
+      "port": 40,
+      "ado": 5,
+      "stir": 60,
+      "soda": 10
+    },
+    "ngrams": {
+      "port": [
+        "+the answer"
+      ],
+      "ado": [
+        "-but"
+      ],
+      "stir": [
+        "+maybe is the"
+      ]
+    },
+    "flags": {
+      "over drink": true,
+      "fuss": true,
+      "fusses": true,
+      "fusses over drink": true,
+      "over": true,
+      "drink": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|932|un_augmented": {
+    "scores": {
+      "C": 70,
+      "D": 0,
+      "B": 0,
+      "A": 5
+    },
+    "ngrams": {
+      "C": [
+        "+matches"
+      ]
+    }
+  },
+  "Rebus|Claude Opus 4.6|puzzle104.gif|un_augmented": {
+    "scores": {
+      "income tax in brackets": 40,
+      "gross": 10,
+      "in brackets": 5,
+      "gross income tax": 5,
+      "tax bracket": 95,
+      "bracket income tax": 15
+    },
+    "ngrams": {
+      "income tax in brackets": [
+        "+could be"
+      ],
+      "gross": [
+        "-No",
+        "+could"
+      ],
+      "gross income tax": [
+        "-No"
+      ],
+      "tax bracket": [
+        "+That's the answer I see it"
+      ],
+      "bracket income tax": [
+        "-hmm"
+      ]
+    },
+    "flags": {
+      "income tax": true
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_026|un_augmented": {
+    "scores": {
+      "per and tor on the outside": 5,
+      "col": 5,
+      "percolator": 95
+    },
+    "ngrams": {
+      "percolator": [
+        "+I'm confident answer—the",
+        "+answer is gives me"
+      ]
+    },
+    "flags": {
+      "soft-drink": true,
+      "each": true,
+      "should contain": true,
+      "a soft drink": true,
+      "soft drink": true,
+      "filter machine": true,
+      "high spot": true
+    }
+  },
+  "VP|Gemini 3 Pro|878|un_augmented": {
+    "scores": {
+      "A": 90,
+      "B": 5,
+      "D": 5,
+      "C": 5
+    },
+    "ngrams": {
+      "A": [
+        "+resembles",
+        "+fits perfectly is the logical choice"
+      ],
+      "B": [
+        "-not",
+        "-doesn't"
+      ]
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|12_9|un_augmented": {
+    "scores": {
+      "an": 5,
+      "dinner": 40,
+      "di": 5,
+      "difoodan rebus": 0,
+      "food": 5
+    },
+    "ngrams": {
+      "dinner": [
+        "+maybe the answer",
+        "-but no is not"
+      ]
+    },
+    "flags": {
+      "difoodan": true
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_053|un_augmented": {
+    "scores": {
+      "in": 5,
+      "call in": 50,
+      "call by": 20
+    },
+    "ngrams": {
+      "call in": [
+        "+most plausible",
+        "+have to",
+        "-stuck"
+      ]
+    },
+    "flags": {
+      "for me": true,
+      "visit": true,
+      "out for me": true,
+      "that's right": true,
+      "corby": true,
+      "out": true,
+      "me": true
+    }
+  },
+  "VP|Claude Opus 4.6|568|un_augmented": {
+    "scores": {
+      "C": 5,
+      "A": 50,
+      "B": 0,
+      "D": 0
+    },
+    "ngrams": {
+      "A": [
+        "+fits"
+      ]
+    }
+  },
+  "Rebus|Gemini 3 Flash|16_11|un_augmented": {
+    "scores": {
+      "hand": 25,
+      "nd": 0,
+      "hand in hand": 80,
+      "hahandnd": 10,
+      "ha": 5
+    },
+    "ngrams": {
+      "hand": [
+        "-No"
+      ],
+      "hand in hand": [
+        "+it looks like",
+        "-No"
+      ]
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_095|un_augmented": {
+    "scores": {
+      "explicit": 30,
+      "clinical": 20
+    },
+    "ngrams": {
+      "explicit": [
+        "+candidate consider",
+        "-Nope"
+      ]
+    },
+    "flags": {
+      "sort of": true,
+      "knife": true,
+      "cuts": true,
+      "precise": true,
+      "sort": true,
+      "sort of knife": true,
+      "left": true,
+      "cut": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|628|un_augmented": {
+    "scores": {
+      "A": 0,
+      "D": 60,
+      "B": 0,
+      "C": 0
+    },
+    "ngrams": {
+      "D": [
+        "+parallel"
+      ]
+    }
+  },
+  "Rebus|Claude Sonnet 4.6|18_2|un_augmented": {
+    "scores": {
+      "integra": 20,
+      "tiger": 40,
+      "in": 0,
+      "integrate": 80,
+      "ate": 0,
+      "gr": 0,
+      "ight": 0,
+      "eight": 10
+    },
+    "ngrams": {
+      "tiger": [
+        "+cleanly produce",
+        "+might"
+      ],
+      "integrate": [
+        "+going to go with settling keeps captures all settling"
+      ]
+    },
+    "flags": {
+      "te": true,
+      "te8gr": true
+    }
+  },
+  "Cryptic|Claude Sonnet 4.6|cc_060|un_augmented": {
+    "scores": {
+      "erased": 30,
+      "erasure": 90,
+      "naturally": 5
+    },
+    "ngrams": {
+      "erased": [
+        "+promising"
+      ],
+      "erasure": [
+        "+confident answer making"
+      ]
+    },
+    "flags": {
+      "rubbed out by age": true,
+      "of course": true,
+      "an area": true,
+      "that's": true,
+      "rubbed out": true,
+      "by age": true,
+      "an area that's rubbed out": true
+    }
+  },
+  "VP|Gemini 3 Pro|994|un_augmented": {
+    "scores": {
+      "C": 5,
+      "B": 70,
+      "A": 5,
+      "D": 5
+    },
+    "ngrams": {
+      "B": [
+        "+Final Answer"
+      ]
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|13_12|un_augmented": {
+    "scores": {
+      "four-tuna-eight": 20,
+      "fortunate": 95
+    },
+    "ngrams": {
+      "fortunate": [
+        "+leads to Clever answer Perfect"
+      ]
+    }
+  },
+  "Cryptic|Gemini 3 Flash|cc_053|un_augmented": {
+    "scores": {
+      "call in": 5,
+      "coby": 5,
+      "come by": 95
+    },
+    "ngrams": {
+      "call in": [
+        "+could mean"
+      ],
+      "come by": [
+        "+Perfect complete solution Done"
+      ]
+    },
+    "flags": {
+      "right out": true,
+      "for": true,
+      "out": true,
+      "right": true,
+      "visit": true,
+      "corby": true,
+      "me": true
+    }
+  },
+  "VP|Gemini 3 Pro|817|un_augmented": {
+    "scores": {
+      "D": 95,
+      "B": 5,
+      "A": 5,
+      "C": 5
+    },
+    "ngrams": {
+      "D": [
+        "+perfectly logical choice"
+      ]
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|23_7|un_augmented": {
+    "scores": {
+      "coreway": 5,
+      "core road": 5,
+      "core": 5,
+      "route": 5,
+      "core way": 5,
+      "way": 5,
+      "core high": 5,
+      "high": 5,
+      "core highway": 30,
+      "highway": 10
+    },
+    "ngrams": {
+      "coreway": [
+        "-No not"
+      ],
+      "core road": [
+        "-no"
+      ],
+      "route": [
+        "-no but"
+      ],
+      "core way": [
+        "-not a phrase not no"
+      ],
+      "way": [
+        "-no not"
+      ],
+      "high": [
+        "-no"
+      ],
+      "core highway": [
+        "-No that's not a phrase",
+        "+I have to go with"
+      ]
+    }
+  },
+  "Cryptic|GPT-5|cc_089|un_augmented": {
+    "scores": {
+      "ttin": 5,
+      "austin": 25,
+      "aust": 5,
+      "ozark": 45,
+      "tin": 5,
+      "aus": 15
+    },
+    "ngrams": {
+      "austin": [
+        "+think lead creates",
+        "-doesn't fit"
+      ],
+      "ozark": [
+        "+best fit might be best"
+      ],
+      "aus": [
+        "+gives me",
+        "-But"
+      ]
+    },
+    "flags": {
+      "aussie": true,
+      "can": true,
+      "start to travel": true,
+      "us city": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|1113|un_augmented": {
+    "scores": {
+      "C": 0,
+      "B": 25,
+      "D": 60,
+      "A": 5
+    },
+    "ngrams": {
+      "D": [
+        "+works as answer"
+      ]
+    }
+  },
+  "Rebus|Claude Opus 4.6|24_5|un_augmented": {
+    "scores": {
+      "that's right": 10,
+      "back": 10,
+      "sit right": 20,
+      "re": 0,
+      "turn right": 5,
+      "come": 10,
+      "sitcom": 70,
+      "sit around": 30,
+      "recline": 0,
+      "seat right": 20
+    },
+    "ngrams": {
+      "that's right": [
+        "-wondering"
+      ],
+      "sit right": [
+        "+possibilities",
+        "-not a thing"
+      ],
+      "sitcom": [
+        "+commit to final answer"
+      ],
+      "sit around": [
+        "-doesn't feel"
+      ],
+      "seat right": [
+        "+wondering"
+      ]
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_029|un_augmented": {
+    "scores": {
+      "aloha": 40,
+      "hello": 20,
+      "main": 5
+    },
+    "ngrams": {
+      "main": [
+        "-but"
+      ],
+      "aloha": [
+        "+Maybe",
+        "-Not sure",
+        "-guess"
+      ],
+      "hello": [
+        "+assume"
+      ]
+    },
+    "flags": {
+      "one": true,
+      "covers": true,
+      "part of large one": true,
+      "small": true,
+      "greeting": true,
+      "large": true,
+      "small island": true
+    }
+  },
+  "VP|Qwen3-VL-235B Thinking|570|un_augmented": {
+    "scores": {
+      "D": 80,
+      "C": 5,
+      "B": 5,
+      "A": 5
+    },
+    "ngrams": {
+      "C": [
+        "-not",
+        "-not"
+      ],
+      "D": [
+        "+fits answer think is"
+      ],
+      "B": [
+        "-doesn't"
+      ],
+      "A": [
+        "-no"
+      ]
+    }
+  },
+  "Rebus|Qwen3-VL-235B Thinking|p47|un_augmented": {
+    "scores": {
+      "crystal blue": 70,
+      "crystal": 5
+    },
+    "ngrams": {
+      "crystal blue": [
+        "+answer is"
+      ]
+    }
+  },
+  "Cryptic|Qwen3-VL-235B Thinking|cc_079|un_augmented": {
+    "scores": {
+      "set": 25,
+      "tone": 5,
+      "aset": 5,
+      "flat": 99,
+      "a set": 5,
+      "seat": 15
+    },
+    "ngrams": {
+      "set": [
+        "+Maybe",
+        "-but"
+      ],
+      "tone": [
+        "-Not really",
+        "-Not matching"
+      ],
+      "aset": [
+        "-not valid"
+      ],
+      "flat": [
+        "+the answer is makes sense double definition"
+      ]
+    },
+    "flags": {
+      "a piece of": true,
+      "stage": true,
+      "note": true,
+      "a piece of stage scenery": true
+    }
+  },
+  "VP|Gemini 3 Flash|932|un_augmented": {
+    "scores": {
+      "B": 0,
+      "D": 5,
+      "A": 5,
+      "C": 90
+    },
+    "ngrams": {
+      "A": [
+        "-fails"
+      ],
+      "D": [
+        "-unrelated"
+      ],
+      "C": [
+        "+answer supports fits the pattern best"
+      ]
+    }
+  },
+  "Rebus|Gemini 2.5 Pro|puzzle110.gif|un_augmented": {
+    "scores": {
+      "head in the sand": 99,
+      "sand": 5,
+      "head": 5,
+      "and": 0,
+      "s-and": 5,
+      "s head and": 5,
+      "she head and": 10
+    },
+    "ngrams": {
+      "head in the sand": [
+        "+ANSWER confident solution is"
+      ],
+      "s head and": [
+        "-didn't"
+      ]
+    },
+    "flags": {
+      "she ad and": true,
+      "s h e a d a n d": true,
+      "sheadand": true
+    }
+  },
+  "Cryptic|Claude Opus 4.6|cc_044|un_augmented": {
+    "scores": {
+      "erasure": 99
+    },
+    "ngrams": {
+      "erasure": [
+        "+the answer",
+        "+they do the answer into"
+      ]
+    },
+    "flags": {
+      "obliteration": true,
+      "of": true,
+      "characters in rare use": true,
+      "obliteration of characters in rare use": true,
+      "rare use": true,
+      "obliteration of": true
+    }
+  },
+  "VP|Gemini 3 Flash|188|un_augmented": {
+    "scores": {
+      "C": 99,
+      "B": 5,
+      "D": 5,
+      "A": 5
+    },
+    "ngrams": {
+      "C": [
+        "+definitely the winner fits best all set confident correct response"
+      ],
+      "D": [
+        "-Not right"
+      ],
+      "B": [
+        "-Not"
+      ],
+      "A": [
+        "-Not relevant"
+      ]
+    }
+  },
+  "Rebus|GPT-5|p30|un_augmented": {
+    "scores": {
+      "bird's-eye view": 90,
+      "bird's eye view": 0,
+      "view": 5
+    },
+    "ngrams": {
+      "bird's-eye view": [
+        "+ANSWER accepted"
+      ]
+    }
+  },
+  "Cryptic|Gemini 2.5 Pro|cc_046|un_augmented": {
+    "scores": {
+      "seen": 10,
+      "madam": 40,
+      "flawed": 5,
+      "scowled": 0
+    },
+    "ngrams": {},
+    "flags": {
+      "brothel-owner spotted": true,
+      "brothel-owner": true,
+      "glower after brothel-owner spotted": true,
+      "after": true,
+      "spotted": true,
+      "glower": true
+    }
+  },
+  "VP|Claude Sonnet 4.6|779|un_augmented": {
+    "scores": {
+      "D": 0,
+      "B": 5,
+      "C": 60,
+      "A": 0
+    },
+    "ngrams": {
+      "B": [
+        "+maybe"
+      ],
+      "C": [
+        "+logical parallel"
+      ]
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "build_date": "2026-05-05T18:19:01.546869",
+  "total_rows": 5299,
+  "by_domain": {
+    "VP": 1400,
+    "Cryptic": 1379,
+    "Rebus": 1320,
+    "ConnectionsPlus": 1200
+  },
+  "cells": [
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Claude Opus 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Claude Opus 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 3 Flash",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 3 Flash",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 3 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Gemini 3 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "ConnectionsPlus",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Claude Opus 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Claude Opus 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "GPT-5",
+      "pass_type": "augmented",
+      "n": 97
+    },
+    {
+      "domain": "Cryptic",
+      "model": "GPT-5",
+      "pass_type": "un_augmented",
+      "n": 83
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "un_augmented",
+      "n": 99
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 3 Flash",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 3 Flash",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 3 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Gemini 3 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Cryptic",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Claude Opus 4.6",
+      "pass_type": "augmented",
+      "n": 97
+    },
+    {
+      "domain": "Rebus",
+      "model": "Claude Opus 4.6",
+      "pass_type": "un_augmented",
+      "n": 73
+    },
+    {
+      "domain": "Rebus",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "augmented",
+      "n": 92
+    },
+    {
+      "domain": "Rebus",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "un_augmented",
+      "n": 92
+    },
+    {
+      "domain": "Rebus",
+      "model": "GPT-5",
+      "pass_type": "augmented",
+      "n": 82
+    },
+    {
+      "domain": "Rebus",
+      "model": "GPT-5",
+      "pass_type": "un_augmented",
+      "n": 95
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "augmented",
+      "n": 90
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "un_augmented",
+      "n": 99
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 3 Flash",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 3 Flash",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 3 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Gemini 3 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "Rebus",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Claude Opus 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Claude Opus 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Claude Sonnet 4.6",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "GPT-5",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "GPT-5",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 2.5 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 3 Flash",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 3 Flash",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 3 Pro",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Gemini 3 Pro",
+      "pass_type": "un_augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "augmented",
+      "n": 100
+    },
+    {
+      "domain": "VP",
+      "model": "Qwen3-VL-235B Thinking",
+      "pass_type": "un_augmented",
+      "n": 100
+    }
+  ]
+}

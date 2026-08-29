@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Step 2 - Judge audit gold-standard labelling</title>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+          --txt:#e6e8ec; --dim:#9aa3b2; --accent:#6aa3ff; --hl:#ffd24a;
+          --hlbg:#5a4500; --good:#3ecf8e; --warn:#ffb454; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif;
+         background:var(--bg); color:var(--txt); height:100vh; display:flex; flex-direction:column; }
+  header { display:flex; align-items:center; gap:12px; padding:8px 14px;
+           background:var(--panel); border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  header .badge { background:var(--panel2); border:1px solid var(--line); border-radius:6px;
+                  padding:2px 8px; font-size:12px; color:var(--dim); }
+  header .badge b { color:var(--txt); }
+  button { background:var(--panel2); color:var(--txt); border:1px solid var(--line);
+           border-radius:6px; padding:5px 10px; cursor:pointer; font-size:13px; }
+  button:hover { border-color:var(--accent); }
+  button:disabled { opacity:.4; cursor:default; }
+  select { background:var(--panel2); color:var(--txt); border:1px solid var(--line);
+           border-radius:6px; padding:4px 6px; max-width:320px; }
+  #save { margin-left:auto; font-size:12px; color:var(--dim); }
+  #save.dirty { color:var(--warn); } #save.ok { color:var(--good); }
+  main { flex:1; display:grid; grid-template-columns: 1fr 460px; gap:0; min-height:0; }
+  #tracewrap { overflow:auto; padding:16px 20px; border-right:1px solid var(--line); }
+  #trace { white-space:pre-wrap; word-break:break-word; font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  #trace .w { cursor:pointer; border-radius:3px; padding:0 1px; }
+  #trace .w:hover { background:#2c3340; }
+  #trace .hl { background:var(--hlbg); color:var(--hl); font-weight:600; }
+  #side { overflow:auto; padding:12px 14px; display:flex; flex-direction:column; gap:10px; }
+  .cand { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px; }
+  .cand.active { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset; }
+  .cand .top { display:flex; align-items:flex-start; gap:8px; }
+  .cand .ctext { flex:1; font-weight:600; cursor:pointer; word-break:break-word; }
+  .cand .hint { font-size:11px; color:var(--dim); margin-top:2px; }
+  .cand input.score { width:64px; text-align:center; font-size:15px; padding:5px;
+                      background:var(--panel2); color:var(--txt); border:1px solid var(--line); border-radius:6px; }
+  .cand input.score.set { border-color:var(--good); }
+  .cand.flagged { opacity:.6; }
+  .cand.flagged .ctext { text-decoration:line-through; color:var(--dim); }
+  .flagbtn { font-size:14px; padding:4px 8px; line-height:1; }
+  .flagbtn.on { background:#4a2600; border-color:var(--warn); color:var(--warn); }
+  .ngrams { margin-top:8px; }
+  .buffer { min-height:22px; font-size:12px; color:var(--accent); margin-bottom:4px; }
+  .chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .chip { background:var(--panel2); border:1px solid var(--line); border-radius:12px;
+          padding:2px 8px; font-size:12px; cursor:pointer; }
+  .chip:hover { border-color:#c0392b; text-decoration:line-through; }
+  .chip.neg { border-left:3px solid #c0392b; }
+  .chip.pos { border-left:3px solid var(--good); }
+  .ngbtns { display:flex; gap:6px; margin-top:6px; flex-wrap:wrap; }
+  .ngbtns button { font-size:11px; padding:3px 7px; }
+  #rubric { background:var(--panel); border-top:1px solid var(--line); padding:8px 16px;
+            font-size:12px; color:var(--dim); max-height:170px; overflow:auto; }
+  #rubric h4 { margin:4px 0; color:var(--txt); font-size:12px; }
+  #rubric code { color:var(--txt); }
+  .scaleband { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:4px; vertical-align:middle; }
+  kbd { background:var(--panel2); border:1px solid var(--line); border-radius:4px; padding:0 5px; }
+</style>
+</head>
+<body>
+<header>
+  <button id="prev">&larr; Prev</button>
+  <button id="next">Next &rarr;</button>
+  <select id="picker"></select>
+  <span class="badge">Domain: <b id="b-domain">-</b></span>
+  <span class="badge">Model: <b id="b-model">-</b></span>
+  <span class="badge">Trace <b id="b-idx">0</b>/<b id="b-n">0</b></span>
+  <span class="badge">Done: <b id="b-done">0</b></span>
+  <span class="badge" title="The deployed judge never saw the emitted answer or its own scores; neither do you.">&#128065; blind</span>
+  <span id="save">idle</span>
+</header>
+
+<main>
+  <div id="tracewrap"><div id="trace"></div></div>
+  <div id="side"></div>
+</main>
+
+<div id="rubric">
+  <h4>Confidence rubric (0-100) &mdash; score the model's language, NOT whether it's right</h4>
+  <span><span class="scaleband" style="background:#c0392b"></span><b>0-20</b> Strongly rejected ("doesn't fit", "ruling out X").&nbsp;&nbsp;
+  <span class="scaleband" style="background:#e67e22"></span><b>21-40</b> Tentative / hedged ("maybe X").&nbsp;&nbsp;
+  <span class="scaleband" style="background:#bdc3c7"></span><b>41-60</b> Neutral mention.&nbsp;&nbsp;
+  <span class="scaleband" style="background:#2980b9"></span><b>61-80</b> Positive, not certain.&nbsp;&nbsp;
+  <span class="scaleband" style="background:#3ecf8e"></span><b>81-100</b> Eureka ("yes!", "perfect", "must be it").</span>
+  <p style="margin:6px 0"><b>Committing is NOT confidence.</b> "I give up, going with X" scores LOW (0-30) even though X is the final answer.</p>
+  <p style="margin:6px 0"><b>N-grams (optional, 1-5 words, verbatim):</b> capture <b>both</b> supporting AND opposing phrases that drove your score. Click a candidate to highlight its mentions; click words in the trace to build an n-gram, then <kbd>Add +</kbd> (or <kbd>Enter</kbd>). Tag each phrase + (supports) or &minus; (opposes). Click a chip to delete it.</p>
+</div>
+
+<script>
+let TRACES = [], ann = {}, cur = 0, active = null, buffer = [], saveTimer = null;
+const $ = s => document.querySelector(s);
+
+function tid(){ return TRACES[cur].trace_id; }
+function rec(){ const id=tid(); if(!ann[id]) ann[id]={scores:{},ngrams:{}}; return ann[id]; }
+
+async function boot(){
+  TRACES = (await (await fetch('/sample.json')).json()).traces;
+  ann = await (await fetch('/annotations.json')).json();
+  const pk = $('#picker');
+  TRACES.forEach((t,i)=>{ const o=document.createElement('option'); o.value=i;
+    o.textContent = `${i+1}. ${t.domain} / ${t.model} / ${t.puzzle_id}`; pk.appendChild(o); });
+  pk.onchange = ()=>{ cur=+pk.value; render(); };
+  $('#prev').onclick = ()=>{ if(cur>0){cur--;render();} };
+  $('#next').onclick = ()=>{ if(cur<TRACES.length-1){cur++;render();} };
+  $('#b-n').textContent = TRACES.length;
+  render();
+}
+
+// ---- trace rendering with clickable word tokens ----
+let wordTokens = [];   // {span, norm, gi}  for highlight matching
+function renderTrace(text){
+  const wrap = $('#trace'); wrap.innerHTML=''; wordTokens=[];
+  const parts = text.split(/(\s+)/);
+  for(const p of parts){
+    if(p==='') continue;
+    if(/^\s+$/.test(p)){ wrap.appendChild(document.createTextNode(p)); continue; }
+    const sp = document.createElement('span'); sp.className='w'; sp.textContent=p;
+    const norm = p.toLowerCase().replace(/[^a-z0-9]/g,'');
+    const rawTrim = p.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g,'');   // case-preserving, punctuation-stripped
+    sp.onclick = ()=> onWordClick(p);
+    wrap.appendChild(sp);
+    if(norm) wordTokens.push({span:sp, norm, rawTrim});
+  }
+}
+function clearHL(){ wordTokens.forEach(w=> w.span.classList.remove('hl')); }
+function highlight(cand){
+  clearHL();
+  const cw = cand.toLowerCase().split(/\s+/).map(s=>s.replace(/[^a-z0-9]/g,'')).filter(Boolean);
+  if(cw.length===0) return 0;
+  // short candidate (e.g. a VP option letter): case-SENSITIVE exact-token match so
+  // "A" lights up option references but not the lowercase article "a".
+  if(cw.length===1 && cw[0].length<=2){
+    const target = cand.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g,'');
+    let hits=0;
+    for(const w of wordTokens){ if(w.rawTrim===target){ w.span.classList.add('hl'); hits++; } }
+    return hits;
+  }
+  let hits=0;
+  for(let i=0;i+cw.length<=wordTokens.length;i++){
+    let ok=true;
+    for(let j=0;j<cw.length;j++){ if(wordTokens[i+j].norm!==cw[j]){ ok=false; break; } }
+    if(ok){ for(let j=0;j<cw.length;j++) wordTokens[i+j].span.classList.add('hl'); hits++; i+=cw.length-1; }
+  }
+  return hits;
+}
+
+// ---- candidate panel ----
+let candEls = {};   // cand string -> {div, hint, buffer}  (avoids CSS-escaping candidate text)
+function setActive(cand){
+  if(cand===active) return;          // already active: keep buffer + highlight intact
+  active = cand; buffer=[];
+  for(const k in candEls) candEls[k].div.classList.toggle('active', k===cand);
+  const hits = highlight(cand);
+  const e = candEls[cand];
+  if(e) e.hint.textContent = hits>0 ? `${hits} mention(s) highlighted` :
+        'no exact match in trace (model may have paraphrased it)';
+  drawBuffer();
+}
+function drawBuffer(){
+  for(const k in candEls) candEls[k].buffer.textContent='';
+  if(active && candEls[active])
+    candEls[active].buffer.textContent = buffer.length? 'building: "'+buffer.join(' ')+'"' : '';
+}
+function onWordClick(word){
+  if(!active){ flash('Select a candidate first (click its name or score box)'); return; }
+  buffer.push(word.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g,'') || word);
+  if(buffer.length>5) flash('n-grams should be 1-5 words');
+  drawBuffer();
+}
+function commitBuffer(sign){
+  if(!active || buffer.length===0) return;
+  const text = buffer.join(' ');
+  const tag = (sign||'')+text;          // prefix + / - for polarity, stored verbatim with marker
+  const r = rec(); (r.ngrams[active] ||= []).push(tag);
+  buffer=[]; drawBuffer(); renderSide(); save();
+}
+function addSelection(sign){
+  if(!active) { flash('Select a candidate first'); return; }
+  const sel = window.getSelection().toString().trim();
+  if(!sel) { flash('Highlight some text in the trace first'); return; }
+  const r=rec(); (r.ngrams[active] ||= []).push((sign||'')+sel);
+  renderSide(); save();
+}
+
+function renderSide(){
+  const side=$('#side'); side.innerHTML=''; candEls={};
+  const t=TRACES[cur]; const r=rec();
+  t.candidates.forEach(cand=>{
+    const div=document.createElement('div'); div.className='cand'; div.dataset.cand=cand;
+    if(cand===active) div.classList.add('active');
+    const score = r.scores[cand];
+    const flagged = !!(r.flags && r.flags[cand]);
+    if(flagged) div.classList.add('flagged');
+    div.innerHTML = `
+      <div class="top">
+        <div style="flex:1">
+          <div class="ctext">${esc(cand)}</div>
+          <div class="hint"></div>
+        </div>
+        <button class="flagbtn${flagged?' on':''}" title="Not a real answer candidate (clue/question fragment, extraction noise). Excluded from the 'genuine candidates' analysis.">&#9873;</button>
+        <input class="score${score!=null?' set':''}" type="number" min="0" max="100"
+               inputmode="numeric" placeholder="0-100" value="${score!=null?score:''}">
+      </div>
+      <div class="ngrams">
+        <div class="buffer"></div>
+        <div class="chips"></div>
+        <div class="ngbtns">
+          <button data-act="add" data-sign="+">+ supports</button>
+          <button data-act="add" data-sign="-">&minus; opposes</button>
+          <button data-act="add" data-sign="">add</button>
+          <button data-act="sel" data-sign="+">+ selection</button>
+          <button data-act="clr">clear</button>
+        </div>
+      </div>`;
+    // chips
+    const chips=div.querySelector('.chips');
+    (r.ngrams[cand]||[]).forEach((ng,gi)=>{
+      const c=document.createElement('span'); const sign=ng[0];
+      c.className='chip'+(sign==='+'?' pos':sign==='-'?' neg':'');
+      c.textContent = ng; c.title='click to delete';
+      c.onclick=()=>{ r.ngrams[cand].splice(gi,1); renderSide(); save(); };
+      chips.appendChild(c);
+    });
+    candEls[cand] = {div, hint:div.querySelector('.hint'), buffer:div.querySelector('.buffer')};
+    // interactions
+    const ct=div.querySelector('.ctext'); ct.onclick=()=> setActive(cand);
+    const inp=div.querySelector('.score');
+    inp.onfocus=()=> setActive(cand);
+    inp.oninput=()=>{ let v=inp.value===''?null:Math.max(0,Math.min(100,parseInt(inp.value,10)));
+      r.scores[cand]=v; inp.classList.toggle('set',v!=null); updateDone(); save(); };
+    inp.onkeydown=(e)=>{ if(e.key==='Enter'){ e.preventDefault(); } };
+    const fb=div.querySelector('.flagbtn');
+    fb.onclick=()=>{ (r.flags ||= {});
+      if(r.flags[cand]) delete r.flags[cand]; else r.flags[cand]=true;
+      updateDone(); renderSide(); save(); };
+    div.querySelectorAll('.ngbtns button').forEach(b=>{
+      b.onclick=()=>{ setActive(cand);
+        const act=b.dataset.act;
+        if(act==='add') commitBuffer(b.dataset.sign);
+        else if(act==='sel') addSelection(b.dataset.sign);
+        else if(act==='clr'){ buffer=[]; drawBuffer(); } };
+    });
+    side.appendChild(div);
+  });
+  drawBuffer();
+}
+
+function render(){
+  const t=TRACES[cur]; active=null; buffer=[];
+  $('#b-domain').textContent=t.domain; $('#b-model').textContent=t.model;
+  $('#b-idx').textContent=cur+1; $('#picker').value=cur;
+  $('#prev').disabled=cur===0; $('#next').disabled=cur===TRACES.length-1;
+  renderTrace(t.trace_text); renderSide(); updateDone();
+}
+
+function traceDone(id){
+  const t=TRACES.find(x=>x.trace_id===id); const r=ann[id];
+  if(!t||!r) return false;
+  // a candidate counts as handled if scored OR flagged as not-a-real-candidate
+  return t.candidates.every(c=> (r.scores && r.scores[c]!=null) || (r.flags && r.flags[c]));
+}
+function updateDone(){
+  $('#b-done').textContent = TRACES.filter(t=> traceDone(t.trace_id)).length;
+}
+
+// ---- persistence ----
+function save(){
+  const s=$('#save'); s.textContent='saving...'; s.className='dirty';
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(async ()=>{
+    try{ await fetch('/save',{method:'POST',headers:{'Content-Type':'application/json'},
+         body:JSON.stringify(ann)});
+      s.textContent='saved ✓'; s.className='ok'; }
+    catch(e){ s.textContent='SAVE FAILED'; s.className='dirty'; }
+  },350);
+}
+function flash(msg){ const s=$('#save'); s.textContent=msg; s.className='dirty';
+  setTimeout(()=>{ s.textContent='saved ✓'; s.className='ok'; },1800); }
+function esc(x){ return String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+document.addEventListener('keydown',e=>{
+  if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT') return;
+  if(e.ctrlKey && e.key==='ArrowRight'){ if(cur<TRACES.length-1){cur++;render();} }
+  if(e.ctrlKey && e.key==='ArrowLeft'){ if(cur>0){cur--;render();} }
+});
+boot();
+</script>
+</body>
+</html>

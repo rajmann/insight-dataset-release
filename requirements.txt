@@ -1,0 +1,6 @@
+# Reproduces the headline tables from data/ (CPU-only, seconds each).
+pandas
+numpy
+scipy
+pyarrow
+scikit-learn==1.8.0

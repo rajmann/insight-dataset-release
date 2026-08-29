@@ -1,0 +1,101 @@
+puzzle_id,answer,source_dataset,source_ref
+10_3,Eye sockets,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+10_8,Blanket,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+11_1,Teacup,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+11_11,Elbow,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+11_6,Backhand,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+12_4,Summer,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+12_9,Indian food,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+13_12,Fortunate,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+13_2,Seasoning,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+13_7,Discount,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+14_10,Sixth sense,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+14_5,A bone to pick,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+15_3,Sleep on it,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+15_8,Draw blood,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+16_1,Holy man,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+16_11,Hand in hand,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+16_6,Forecast,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+17_4,Elbows,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+17_9,Rampant,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+18_12,Canoe,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+18_2,Integrate,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+18_7,Seasoning,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+19_10,Wreath,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+19_5,Snow|Snot,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+1_1,For once in my life,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+1_11,3D movie,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+1_6,Downtown,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+20_3,Eyeliner,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+20_8,Tender,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+21_1,Warm up,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+21_11,Bear with,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+21_6,Die down,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+22_4,Lobster,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+22_9,Household,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+23_12,Generate|Generating,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+23_2,Oasis,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+23_7,Corrode,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+24_10,Jasmine tea,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+24_5,Saturn,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+25_3,Prologue,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+25_8,Ghostwriter|Ghostrider,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+26_1,Empty,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+26_11,Chills,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+26_6,Photo finish,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+2_4,Advice,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+2_9,No idea,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+3_12,Teabag,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+3_2,Good looking,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+3_7,Seahorse,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+4_10,Time to go,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+4_5,Design,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+5_3,Touchdown,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+5_8,Caveman|Mancave,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+6_1,Crossbow,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+6_11,Rock n roll,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+6_6,I’ll get over it,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+7_4,One foot in the door,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+7_9,Toothpick,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+8_12,Weekend,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+8_2,X-ray,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+8_7,Mousetrap,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+9_10,Finland,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+9_5,Angkor Wat,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p101,job interview,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p112,Easy Peasy,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p14,hand-me-down,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p15,balanced diet,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p18,no excuse for it,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p20,food for thought,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p29,teatime,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p30,bird's eye view,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p31,different strokes for different folks,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p32,scrambled eggs,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p36,up to no good,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p37,ready for action,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p39,dirty word,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p47,crystal clear,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p48,square root,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p50,feel free,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p56,two heads are better than one,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p57,kingpin,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p58,one in a million,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p64,you're fired!,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p77,the writing's on the wall,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p82,I stand corrected,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p93,ice cream,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+p94,searching high and low,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle104.gif,INCOME TAX BRACKETS,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle110.gif,HEAD IN THE SAND,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle114.gif,2 PEAS IN A POD,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle119.gif,MORE OFTEN THAN NOT,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle124.gif,FLY BY NIGHT,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle128.gif,CLOSE ENCOUNTERS,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle133.gif,ODDS ARE AGAINST YOU,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle138.gif,Raised Eyebrows,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle28.gif,Feeling UNDER the weather,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle33.gif,Paradox (pair a' dox),"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle39.gif,Once IN A blue moon,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle44.gif,5 lbs OVERweight,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id
+puzzle55.gif,six feet under ground,"RE-BUS (Das et al. 2025), arXiv:2511.01340",https://rebus-dataset.github.io/ ; puzzle_id is the RE-BUS item id

@@ -1,0 +1,944 @@
+{
+  "meta": {
+    "granularity": "paragraph",
+    "seed": 0,
+    "n_traces": 73
+  },
+  "results": {
+    "VP|Claude Opus 4.6|89|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 65,
+        "C": null,
+        "D": 68
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_064|un_augmented": {
+      "scores": {
+        "slowdown": 65,
+        "laziness as the answer": 85,
+        "sluggishness at work": 55,
+        "at work": 50
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 3 Flash|11_6|un_augmented": {
+      "scores": {
+        "backhand": 95,
+        "backseat": 15,
+        "handicap": 15,
+        "behind your back": 10,
+        "backhanded": 35,
+        "offhand": 20,
+        "backhanded compliment": 20,
+        "hindsight": 20,
+        "underhanded": 10,
+        "behind one's back": 10
+      },
+      "n_units": 10,
+      "can_shuffle": true
+    },
+    "Rebus|GPT-5|5_3|un_augmented": {
+      "scores": {
+        "touch down": 75,
+        "staying in touch": 35,
+        "in touch": 20,
+        "out of touch": 30,
+        "t o u c h": 50,
+        "touchdown": 90,
+        "down": 45,
+        "touch": 50
+      },
+      "n_units": 10,
+      "can_shuffle": true
+    },
+    "VP|Gemini 2.5 Pro|238|un_augmented": {
+      "scores": {
+        "A": 10,
+        "B": 88,
+        "C": 10,
+        "D": 45
+      },
+      "n_units": 22,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_070|un_augmented": {
+      "scores": {
+        "for execution": 65,
+        "execution": 45,
+        "toxicant": 85,
+        "for poison": 55,
+        "not the first to be carried out": 40,
+        "poison": 70,
+        "operation": 60,
+        "to be carried out": 50,
+        "carried out": 35,
+        "not the first": 50
+      },
+      "n_units": 22,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|11_1|un_augmented": {
+      "scores": {
+        "teacher with no class": 65,
+        "teacher": 50,
+        "top of the class": 85,
+        "teach": 35,
+        "her": 30,
+        "teac": 50
+      },
+      "n_units": 6,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_085|un_augmented": {
+      "scores": {
+        "every second of the day": 50,
+        "oaf": 95,
+        "of the day": 60,
+        "clumsy": 90,
+        "every second": 75,
+        "am": 35,
+        "i'm": 45,
+        "day": 55,
+        "second": 40,
+        "of": 55
+      },
+      "n_units": 189,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 3 Flash|20_8|un_augmented": {
+      "scores": {
+        "der": 45,
+        "thunder": 95,
+        "under": 15,
+        "ten": 50,
+        "ten-der": 55,
+        "rebus": 50,
+        "10 der": 60,
+        "tender": 50,
+        "rebus der ten times": 45,
+        "ten der": 75
+      },
+      "n_units": 22,
+      "can_shuffle": true
+    },
+    "VP|Qwen3-VL-235B Thinking|438|un_augmented": {
+      "scores": {
+        "A": 45,
+        "B": 42,
+        "C": 95,
+        "D": 15
+      },
+      "n_units": 84,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Opus 4.6|cc_076|un_augmented": {
+      "scores": {
+        "egomania": 95,
+        "rising reputation": 50,
+        "shows self-centredness": 60,
+        "admit": 50,
+        "start to admit": 60,
+        "reputation": 50,
+        "to spike": 35,
+        "attempt": 55,
+        "8 letters and means": 85
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 2.5 Pro|2_4|un_augmented": {
+      "scores": {
+        "vice": 45,
+        "advice": 35,
+        "vis-a-vis": 85,
+        "vice-president": 15,
+        "ad": 20
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "Cryptic|GPT-5|cc_084|un_augmented": {
+      "scores": {
+        "delhi": 41,
+        "food bar's hot inside": 55,
+        "pub": 35
+      },
+      "n_units": 2,
+      "can_shuffle": false
+    },
+    "VP|Gemini 2.5 Pro|817|un_augmented": {
+      "scores": {
+        "A": 65,
+        "B": 45,
+        "C": 40,
+        "D": 45
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Opus 4.6|cc_049|un_augmented": {
+      "scores": {
+        "kings coming from the east": 45,
+        "rexes": 55,
+        "shahs": 75,
+        "kings": 50,
+        "coming from the west or from the east": 70,
+        "the west or from the east": 45,
+        "from the east": 65,
+        "coming from the west": 40,
+        "or": 60,
+        "ro": 60
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "VP|GPT-5|1171|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 85,
+        "C": 10,
+        "D": null
+      },
+      "n_units": 6,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Sonnet 4.6|12_4|un_augmented": {
+      "scores": {
+        "tour": 85,
+        "two r": 55,
+        "rare": 70,
+        "arrest": 35,
+        "r&r": 30,
+        "rest and relaxation": 30,
+        "rest": 45,
+        "rr": 50,
+        "are": 50,
+        "ar": 50
+      },
+      "n_units": 25,
+      "can_shuffle": true
+    },
+    "Rebus|Qwen3-VL-235B Thinking|15_8|un_augmented": {
+      "scores": {
+        "abo blood type": 35,
+        "writing blood types": 20,
+        "abo": 30,
+        "blood type": 95
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "VP|Gemini 3 Flash|377|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 95,
+        "C": 10,
+        "D": 10
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_044|un_augmented": {
+      "scores": {
+        "unusual": 41,
+        "characters in rare use": 75,
+        "obliteration": 95,
+        "erasure": 95,
+        "characters in": 45,
+        "in rare use": 45,
+        "rare use": 85,
+        "characters": 45,
+        "use": 45,
+        "rare": 55
+      },
+      "n_units": 50,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 3 Pro|11_1|un_augmented": {
+      "scores": {
+        "teac": 60,
+        "up": 75,
+        "teacup": 95,
+        "high teac": 30,
+        "teac up": 20,
+        "high tech": 55,
+        "teach": 40,
+        "tech": 45,
+        "teac top": 15
+      },
+      "n_units": 5,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 3 Flash|cc_020|un_augmented": {
+      "scores": {
+        "arden": 95,
+        "rdent": null,
+        "ardent": 85,
+        "almost": 50,
+        "shakespearean scene": 90,
+        "one shakespearean scene": 90,
+        "one": 45,
+        "one enthusiastic": 85,
+        "enthusiastic": 80,
+        "asset": 20
+      },
+      "n_units": 6,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|1116|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 2.5 Pro|19_10|un_augmented": {
+      "scores": {
+        "w in seaweed": 45,
+        "lost in the weeds": 75,
+        "eed": 55,
+        "w with seaweed": 45,
+        "seaweed": 65
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_049|un_augmented": {
+      "scores": {
+        "west or east": 75,
+        "rajas": 40,
+        "raja": 35,
+        "kings": 50,
+        "or": 80
+      },
+      "n_units": 11,
+      "can_shuffle": true
+    },
+    "VP|Qwen3-VL-235B Thinking|972|un_augmented": {
+      "scores": {
+        "A": 92,
+        "B": 18,
+        "C": 15,
+        "D": 12
+      },
+      "n_units": 85,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|23_7|un_augmented": {
+      "scores": {
+        "hard core": 15,
+        "fruit": 45,
+        "corridor": 75,
+        "core road": 10,
+        "apple road": 10,
+        "the road to the core": 35,
+        "hardcore": 30,
+        "core": 55,
+        "road": 55
+      },
+      "n_units": 12,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_063|un_augmented": {
+      "scores": {
+        "alert broadcast about mp": 50,
+        "templar": 75,
+        "alert broadcast": 45,
+        "about": 50,
+        "broadcast": 55,
+        "re": 40,
+        "alert": 50,
+        "barrister": 60,
+        "ca": 40,
+        "mp": 50
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 3 Flash|puzzle128.gif|un_augmented": {
+      "scores": {
+        "close": 55,
+        "close encounters": 95
+      },
+      "n_units": 3,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|701|un_augmented": {
+      "scores": {
+        "A": 65,
+        "B": 45,
+        "C": 45,
+        "D": 45
+      },
+      "n_units": 16,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|188|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 75,
+        "D": null
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_034|un_augmented": {
+      "scores": {
+        "met": 45,
+        "from east and west": 50,
+        "main roads": 35,
+        "converge": 40,
+        "roads": 45,
+        "main": 45,
+        "east": 75,
+        "end": 85,
+        "west": 45,
+        "and": 45
+      },
+      "n_units": 209,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 3 Flash|cc_068|un_augmented": {
+      "scores": {
+        "road tests": 100,
+        "started so": 50,
+        "trials": 55,
+        "mock trials": 10,
+        "jury trials": 10,
+        "soft cases": 10,
+        "hard times": 10,
+        "t e s t c a s e s": 15,
+        "test cases": 20,
+        "badly": 60
+      },
+      "n_units": 14,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|18_2|un_augmented": {
+      "scores": {
+        "in-tegr-eight": 95,
+        "teightgr": 15,
+        "teategr": 40,
+        "eight": 55,
+        "te8gr": 50,
+        "integrate": 95,
+        "tegr": 50,
+        "ate": 55,
+        "gr": 45,
+        "te": 45
+      },
+      "n_units": 5,
+      "can_shuffle": true
+    },
+    "VP|Gemini 2.5 Pro|719|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 35,
+        "C": 10,
+        "D": 98
+      },
+      "n_units": 9,
+      "can_shuffle": true
+    },
+    "VP|Gemini 2.5 Pro|52|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "n_units": 9,
+      "can_shuffle": true
+    },
+    "Rebus|Qwen3-VL-235B Thinking|18_2|un_augmented": {
+      "scores": {
+        "teater": 15,
+        "tea for": 15,
+        "te8gr": 50,
+        "t e 8 g r": 50,
+        "teeter": 10,
+        "teategr": 15,
+        "gr": 45,
+        "text": 35,
+        "ate": 55,
+        "te": 50
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "Rebus|Claude Sonnet 4.6|puzzle133.gif|un_augmented": {
+      "scores": {
+        "13579 vs u": 50,
+        "odds against you": 75,
+        "odd numbers vs u": 60,
+        "the odds are against you": 70,
+        "odd numbers against you": 65
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_088|un_augmented": {
+      "scores": {
+        "boutique": 75,
+        "bloody": 35,
+        "outside": 55,
+        "dickensian": 50,
+        "slog": 25,
+        "bound": 30,
+        "tedious": 45,
+        "ian": 20,
+        "dickens": 40,
+        "dick": 30
+      },
+      "n_units": 317,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|795|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 70,
+        "D": 65
+      },
+      "n_units": 15,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 3 Pro|cc_059|un_augmented": {
+      "scores": {
+        "yak yak": 85,
+        "lengthy talk": 50,
+        "repeatedly": 50,
+        "chat chat": 35,
+        "wah wah": 35,
+        "yap yap": 40,
+        "gab gab": 40,
+        "seat that's flexible to the end": 20,
+        "to the end": 30,
+        "jaw jaw": 65
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|932|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": 95,
+        "D": null
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_052|un_augmented": {
+      "scores": {
+        "soda": 45,
+        "port": 35,
+        "ado": 30,
+        "fusses over drink": 41,
+        "over drink": 30,
+        "stir": 90,
+        "fusses": 50,
+        "drink": 45,
+        "over": 40,
+        "fuss": 50
+      },
+      "n_units": 35,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|puzzle104.gif|un_augmented": {
+      "scores": {
+        "tax bracket": 95,
+        "bracket income tax": 55,
+        "gross income tax": 15,
+        "income tax in brackets": 50,
+        "gross": 10,
+        "in brackets": 45,
+        "income tax": 50
+      },
+      "n_units": 6,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_026|un_augmented": {
+      "scores": {
+        "per and tor on the outside": 55,
+        "percolator": 95,
+        "a soft drink": 45,
+        "soft-drink": 40,
+        "filter machine": 90,
+        "should contain": 60,
+        "each": 50,
+        "high spot": 50,
+        "soft drink": 50,
+        "col": 85
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "VP|Gemini 3 Pro|878|un_augmented": {
+      "scores": {
+        "A": 98,
+        "B": 35,
+        "C": 10,
+        "D": 10
+      },
+      "n_units": 18,
+      "can_shuffle": true
+    },
+    "Rebus|Qwen3-VL-235B Thinking|12_9|un_augmented": {
+      "scores": {
+        "difoodan rebus": 45,
+        "difoodan": 50,
+        "food": 55,
+        "an": 50,
+        "dinner": 15,
+        "di": 40
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "VP|Claude Opus 4.6|568|un_augmented": {
+      "scores": {
+        "A": 35,
+        "B": null,
+        "C": 15,
+        "D": null
+      },
+      "n_units": 10,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_053|un_augmented": {
+      "scores": {
+        "call by": 65,
+        "call in": 75,
+        "visit": 85,
+        "out for me": 40,
+        "that's right": 50,
+        "for me": 45,
+        "corby": 60,
+        "out": 40,
+        "me": 40,
+        "in": 55
+      },
+      "n_units": 244,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|puzzle110.gif|un_augmented": {
+      "scores": {
+        "head in sand": 65,
+        "head in the sand": 75,
+        "sand": 60,
+        "ahead and": 15,
+        "s h e a d a n d": 50,
+        "head and shoulders": 10,
+        "s head and": 40,
+        "head and": 45,
+        "head": 55,
+        "and": 45
+      },
+      "n_units": 13,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|628|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": 75
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 3 Flash|cc_095|un_augmented": {
+      "scores": {
+        "clinical": 65,
+        "explicit": 55,
+        "cuts": 45,
+        "sort of knife": 50,
+        "left": 40,
+        "cut": 45,
+        "sort of": 45,
+        "sort": 50,
+        "precise": 85,
+        "knife": 50
+      },
+      "n_units": 33,
+      "can_shuffle": true
+    },
+    "VP|Gemini 3 Pro|994|un_augmented": {
+      "scores": {
+        "A": 45,
+        "B": 85,
+        "C": 15,
+        "D": 15
+      },
+      "n_units": 23,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Sonnet 4.6|cc_060|un_augmented": {
+      "scores": {
+        "erasure": 95,
+        "an area": 45,
+        "of course": 55,
+        "by age": 50,
+        "erased": 40,
+        "that's": 40,
+        "an area that's rubbed out": 65,
+        "rubbed out": 50,
+        "naturally": 40,
+        "rubbed out by age": 45
+      },
+      "n_units": 9,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Sonnet 4.6|18_2|un_augmented": {
+      "scores": {
+        "tiger": 35,
+        "te8gr": 50,
+        "integrate": 85,
+        "eight": 50,
+        "integra": 30,
+        "ight": 45,
+        "ate": 55,
+        "gr": 50,
+        "te": 50,
+        "in": 40
+      },
+      "n_units": 35,
+      "can_shuffle": true
+    },
+    "VP|Gemini 3 Pro|817|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 10,
+        "C": 10,
+        "D": 95
+      },
+      "n_units": 11,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 3 Flash|cc_053|un_augmented": {
+      "scores": {
+        "me": 95,
+        "for": 55,
+        "come by": 100,
+        "right out": 85,
+        "corby": 90,
+        "right": 80,
+        "visit": 85,
+        "call in": 40,
+        "out": 75,
+        "coby": 90
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 2.5 Pro|13_12|un_augmented": {
+      "scores": {
+        "fortunate": 95,
+        "four-tuna-eight": 75
+      },
+      "n_units": 5,
+      "can_shuffle": true
+    },
+    "Rebus|Qwen3-VL-235B Thinking|23_7|un_augmented": {
+      "scores": {
+        "core road": 15,
+        "coreway": 15,
+        "route": 10,
+        "core way": 30,
+        "core highway": 55,
+        "core high": 15,
+        "highway": 50,
+        "high": 15,
+        "way": 45,
+        "core": 50
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "Cryptic|GPT-5|cc_089|un_augmented": {
+      "scores": {
+        "ozark": 75,
+        "ttin": 15,
+        "us city": 50,
+        "austin": 40,
+        "aust": 30,
+        "aussie": 50,
+        "start to travel": 55,
+        "can": 60,
+        "aus": 65,
+        "tin": 65
+      },
+      "n_units": 10,
+      "can_shuffle": true
+    },
+    "VP|Claude Sonnet 4.6|1113|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 85,
+        "C": null,
+        "D": 75
+      },
+      "n_units": 8,
+      "can_shuffle": true
+    },
+    "Rebus|Claude Opus 4.6|24_5|un_augmented": {
+      "scores": {
+        "sit around": 75,
+        "turn right": 50,
+        "recline": 35,
+        "that's right": 30,
+        "seat right": 15,
+        "come": 65,
+        "sit right": 15,
+        "sitcom": 95,
+        "back": 60,
+        "re": 40
+      },
+      "n_units": 35,
+      "can_shuffle": true
+    },
+    "Rebus|Qwen3-VL-235B Thinking|p47|un_augmented": {
+      "scores": {
+        "crystal blue": 95,
+        "crystal": 50
+      },
+      "n_units": 1,
+      "can_shuffle": false
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_029|un_augmented": {
+      "scores": {
+        "aloha": 75,
+        "hello": 45,
+        "main": 40,
+        "covers": 35,
+        "greeting": 50,
+        "small island": 40,
+        "part of large one": 35,
+        "small": 40,
+        "one": 30,
+        "large": 30
+      },
+      "n_units": 247,
+      "can_shuffle": true
+    },
+    "VP|Qwen3-VL-235B Thinking|570|un_augmented": {
+      "scores": {
+        "A": 45,
+        "B": 55,
+        "C": 40,
+        "D": 85
+      },
+      "n_units": 245,
+      "can_shuffle": true
+    },
+    "VP|Gemini 3 Flash|932|un_augmented": {
+      "scores": {
+        "A": 15,
+        "B": 10,
+        "C": 95,
+        "D": 5
+      },
+      "n_units": 10,
+      "can_shuffle": true
+    },
+    "Cryptic|Qwen3-VL-235B Thinking|cc_079|un_augmented": {
+      "scores": {
+        "a set": 30,
+        "tone": 35,
+        "aset": 25,
+        "seat": 20,
+        "a piece of stage scenery": 60,
+        "flat": 85,
+        "a piece of": 45,
+        "stage": 30,
+        "set": 40,
+        "note": 50
+      },
+      "n_units": 81,
+      "can_shuffle": true
+    },
+    "Cryptic|Claude Opus 4.6|cc_044|un_augmented": {
+      "scores": {
+        "erasure": 95,
+        "obliteration of characters in rare use": 55,
+        "obliteration": 75,
+        "of": 65,
+        "obliteration of": 45,
+        "characters in rare use": 50,
+        "rare use": 85
+      },
+      "n_units": 7,
+      "can_shuffle": true
+    },
+    "Rebus|Gemini 2.5 Pro|puzzle110.gif|un_augmented": {
+      "scores": {
+        "and": 45,
+        "sand": 85,
+        "head": 90,
+        "head in the sand": 95,
+        "s-and": 75,
+        "sheadand": 40,
+        "s h e a d a n d": 50,
+        "she head and": 30,
+        "s head and": 35,
+        "she ad and": 30
+      },
+      "n_units": 9,
+      "can_shuffle": true
+    },
+    "VP|Gemini 3 Flash|188|un_augmented": {
+      "scores": {
+        "A": 10,
+        "B": 10,
+        "C": 95,
+        "D": 10
+      },
+      "n_units": 13,
+      "can_shuffle": true
+    },
+    "Rebus|GPT-5|p30|un_augmented": {
+      "scores": {
+        "bird's eye view": 45,
+        "bird's-eye view": 95,
+        "view": 50
+      },
+      "n_units": 2,
+      "can_shuffle": false
+    },
+    "VP|Claude Sonnet 4.6|779|un_augmented": {
+      "scores": {
+        "A": null,
+        "B": 55,
+        "C": 68,
+        "D": null
+      },
+      "n_units": 6,
+      "can_shuffle": true
+    },
+    "Cryptic|Gemini 2.5 Pro|cc_046|un_augmented": {
+      "scores": {
+        "scowled": 25,
+        "flawed": 30,
+        "seen": 50,
+        "glower after brothel-owner spotted": 60,
+        "after": 55,
+        "glower": 75,
+        "madam": 85,
+        "brothel-owner spotted": 50,
+        "brothel-owner": 85,
+        "spotted": 50
+      },
+      "n_units": 3,
+      "can_shuffle": true
+    }
+  }
+}
