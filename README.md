@@ -55,6 +55,11 @@ seconds.
 | Limitations — single-run stability | `code/_stability_run.py --analyse` | per-feature Cohen's d across three runs over `data/stability_cryptic/` |
 | App. — judge validation | `code/audit_step2/` | human/cross-family/position checks |
 | Qwen within-model AUC | `code/_qwen_resolution_separability.py` | |
+| App. — marker selection, holdout | `code/marker_provenance/_holdout_selection_sample.py` | lift +18.0pp on the 80 puzzles the marker lists never saw, against +16.9pp on all 100 |
+| App. — marker selection, increment | `code/marker_provenance/_hedge_dictionary_increment.py` | what the markers add on the 20 vs the 80, differenced against the list-free features |
+| App. — marker selection, n-gram ablation | `code/marker_provenance/_hedge_dictionary_provenance.py`, `_hedge_dictionary_provenance_table1.py` | reversing the n-gram-derived edits moves mean LODO AP 0.855 to 0.854 |
+| App. — judge self-preference | `code/marker_provenance/_judge_family_contrasts.py` | the two contrasts against the four non-Gemini models, and the judge-substitution AP |
+| App. — judge self-preference, supporting | `code/marker_provenance/_judge_self_preference.py` | per-model discrimination, and both judges against the human referee |
 
 Collecting new traces (model re-runs) and the paper's auxiliary comparisons — the Table 4
 embedding/BERT baselines and the Appendix token-level pilot — rely on external resources
@@ -98,9 +103,18 @@ outputs, and the analysis is reproducible from those.
   `chosen_conf` exists — so that the two columns are paired on identical rows. That subset gives
   mean LODO AP 0.855. `_4domain_effort_signal_classifier.py` instead runs on all 5,054 extracted
   rows and gives 0.839. Both are correct for their row set; the effort classifier is identical.
-  **`chosen_conf` is not currently shipped in this bundle**, so the `+conf` column and the exact
-  Table 2 row set cannot be reproduced from these files. The judge scores will be added; until
-  then, treat the shipped script's 0.839 as the all-rows figure, not a failed reproduction.
+  The judge scores behind `chosen_conf` are now shipped in `data/judge_scores/`, so both the
+  `+conf` column and the judge-matched row set can be rebuilt (see
+  `code/marker_provenance/_paths.py:chosen_conf_table`). Treat the shipped script's 0.839 as the
+  all-rows figure rather than a failed reproduction of Table 2's 0.855.
+
+- **`data/judge_scores/`** holds the LLM-judge output the confidence feature is built from.
+  `eureka_judge_full.csv` (Rebus and Cryptic), `eureka_judge_vp.csv` and `eureka_judge_connp.csv`
+  give one row per candidate with the judge's 0-100 score; `chosen_conf` is the score on the
+  candidate the model committed to. `second_judge_extended.jsonl` is the independent second judge
+  (DeepSeek V3) on a further 350 traces, up to 50 per generating model, used for the
+  self-preference test. `marker_selection_puzzles.json` lists the 20 Rebus puzzles the marker
+  lists were drawn from.
 
 ## Provenance and licensing
 

@@ -1,0 +1,27 @@
+{
+  "note": "The 20 Rebus puzzles the hedge and commitment marker lists were drawn from. A strict subset of the 100-puzzle Rebus set. Used by the marker-provenance analyses in code/marker_provenance/.",
+  "domain": "Rebus",
+  "n": 20,
+  "puzzle_ids": [
+    "1_1",
+    "1_11",
+    "1_6",
+    "2_4",
+    "2_9",
+    "3_12",
+    "3_2",
+    "3_7",
+    "4_10",
+    "4_5",
+    "5_3",
+    "5_8",
+    "6_1",
+    "6_11",
+    "6_6",
+    "7_4",
+    "7_9",
+    "8_12",
+    "8_2",
+    "8_7"
+  ]
+}
