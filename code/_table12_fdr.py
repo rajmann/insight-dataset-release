@@ -15,7 +15,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from _math_appendix_spearman import load_math
 
-PD = HERE / "paper_dataset_4domain_2026-05-05"
+PD = HERE.parent / "data" / "insight_4domain"
 FEATS = ["tokens_thinking_proxy", "elapsed", "thinking_char_count",
          "hedge_rate", "hedge_ratio", "hedge_position_variance"]
 RNG = np.random.default_rng(0)

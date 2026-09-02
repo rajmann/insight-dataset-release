@@ -4,3 +4,4 @@ numpy
 scipy
 pyarrow
 scikit-learn==1.8.0
+python-dotenv
